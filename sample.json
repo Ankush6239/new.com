@@ -1,2022 +1,224 @@
-Example request
-
-curl https://newsapi.org/v2/everything G \
-    d q=Apple \
-    d from=20240626 \
-    d sortBy=popularity \
-    d apiKey=API_KEY
-
-Example response
-{
-
-    "status": "ok",
-    "totalResults": 372,
-    
-    "articles": [
-        
-        {
-            
-            "source": {
-                "id": "theverge",
-                "name": "The Verge"
-            },
-            "author": "Quentyn Kennemer",
-            "title": "Meta tests Vision Prolike freeform virtual screen placement for Quest headsets",
-            "description": "An experimental Meta Quest feature allows you to freely move virtual windows around, similar to the Vision Pro’s spatial computing setup.",
-            "url": "https://www.theverge.com/2024/6/25/24185869/metaquestvrvirtualscreenplacement",
-            "urlToImage": "https://cdn.voxcdn.com/thumbor/rsxxYBTcz6dJBbL59ENSwH0kDg=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.voxcdn.com/uploads/chorus_asset/file/24954366/236805_Quest_3_and_Ray_Ban_meta_glasses_BFarsace_0027.jpg",
-            "publishedAt": "20240626T00:22:54Z",
-            "content": "Meta tests Vision Prolike freeform virtual screen placement for Quest headsets\r\nMeta tests Vision Prolike freeform virtual screen placement for Quest headsets\r\n / Its only available to beta testers… [+2504 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "heise online"
-            },
-            "author": "Mark Zimmermann",
-            "title": "heise+ | Diagnose wie ein Profi: So prüfen Sie Mac, iPhone und Studio Display auf Defekte",
-            "description": "Apple und seine Reparaturpartner prüfen Macs und iPhones mit Spezialsoftware. Mit unserer Anleitung schaffen Sie das auch.",
-            "url": "https://www.heise.de/ratgeber/DiagnosewieeinProfiSopruefenSieMaciPhoneundStudioDisplayaufDefekte9776324.html?wt_mc=rss.red.ho.ho.atom.beitrag_plus.beitrag_plus",
-            "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.pnglossy85.webplossy85.foil1/_wwwheisede_/imgs/18/4/6/2/0/7/3/9/mi_0424_diagnose_aufmacher_hochab42feb87f27825e.png",
-            "publishedAt": "20240626T07:00:00Z",
-            "content": "Inhaltsverzeichnis\r\nEinen Displayschaden bemerkt man sofort, aber wie sieht es mit dem Innenleben des iPhone aus? Funktioniert zum Beispiel der Kompasssensor noch? Beim Kauf eines gebrauchten AppleG… [+1258 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "heise online"
-            },
-            "author": "Frank Schräer",
-            "title": "Mittwoch: Wettersatellit mit Sonnenbeobachtung, Julian Assange endgültig frei",
-            "description": "Satellit für Sonnenkorona + WikileaksGründer frei + Threads im Fediverse + OpenAI gegen China + VWMilliarden für Rivian + Start der Patientenakte begrenzt",
-            "url": "https://www.heise.de/news/MittwochWettersatellitmitSonnenbeobachtungJulianAssangeendgueltigfrei9778151.html",
-            "urlToImage": "https://heise.cloudimg.io/bound/1200x1200/q85.pnglossy85.webplossy85.foil1/_wwwheisede_/imgs/18/4/6/2/1/7/1/1/mittwoch4e60eb0d419a01bf.webp",
-            "publishedAt": "20240626T04:30:00Z",
-            "content": "Zum letzten Mal haben die USA einen Wettersatelliten der GOESReihe ins All geschossen. Neu ist die Beobachtung der Sonnenkorona. Damit könnte besser vor Sonneneruptionen gewarnt werden, die elektris… [+7287 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "9to5Mac"
-            },
-            "author": "Filipe Espósito",
-            "title": "Beats app for Android updated with support for Beats Pill and Solo Buds",
-            "description": "Following the release of new Beats products this month, Apple on Tuesday launched an update for the Beats app for...",
-            "url": "https://9to5mac.com/2024/06/25/beatsappandroidpillsolobuds/",
-            "urlToImage": "https://i0.wp.com/9to5mac.com/wpcontent/uploads/sites/6/2024/06/BeatsappAndroid.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
-            "publishedAt": "20240626T00:31:36Z",
-            "content": "Following the release of new Beats products this month, Apple on Tuesday launched an update for the Beats app for Android. The latest version of the app includes support for the newly released Beats … [+1555 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Joythebaker.com"
-            },
-            "author": "Joy the Baker",
-            "title": "Toby Rose’s 2024 Summer Reading List",
-            "description": "Summer books are not supposed to come home with you. They are not meant to be a part of your permanent collection and should never see your bookshelves. Even if the pages are stained with suntan lotion or potato chip grease, you pass them along — to friends, …",
-            "url": "https://joythebaker.com/2024/06/tobyroses2024summerreadinglist/",
-            "urlToImage": "https://joythebaker.com/wpcontent/uploads/2024/06/IMG_9685_VSCOscaled.jpg",
-            "publishedAt": "20240626T08:38:33Z",
-            "content": "Summer books are not supposed to come home with you. They are not meant to be a part of your permanent collection and should never see your bookshelves. Even if the pages are stained with suntan loti… [+8230 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "AppleInsider"
-            },
-            "author": "news@appleinsider.com (Chip Loder)",
-            "title": "How to use Reference Mode on the iPad Pro",
-            "description": "Reference Mode enhances colors and metadata, making it ideal for use in professional workflows. Here's how to use it on your iPad Pro.iPad Pro.Reference Mode on an iPad is a special display mode designed for professionals. It uses High Dynamic Range (HDR) as …",
-            "url": "https://appleinsider.com/inside/ipadpro/tips/howtousereferencemodeontheipadpro",
-            "urlToImage": "https://photos5.appleinsider.com/gallery/59950122963ledeRefModexl.jpg",
-            "publishedAt": "20240626T03:00:28Z",
-            "content": "iPad Pro.\r\nReference Mode enhances colors and metadata, making it ideal for use in professional workflows. Here's how to use it on your iPad Pro.\r\nReference Mode on an iPad is a special display mode … [+8549 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Journal du geek"
-            },
-            "author": "Thomas Estimbre",
-            "title": "LG équipe les PC portables d’écrans Tandem OLED : qu’estce que cette technologie ?",
-            "description": "Aperçue sur les iPad Pro M4, la technologie Tandem OLED prépare son arrivée sur d'autres appareils. LG propose ce nouvel écran OLED plus performant dans le nouveau Dell XPS 13.",
-            "url": "https://www.journaldugeek.com/2024/06/26/lgequipelespcportablesdecranstandemoledquestcequecettetechnologie/",
-            "urlToImage": "https://www.journaldugeek.com/app/uploads/2024/06/LGDisplayTandemOLEDLaptops.jpg",
-            "publishedAt": "20240626T06:03:37Z",
-            "content": "Souvent plébiscité pour ses multiples qualités, la technologie OLED est en constante évolution. Elle le prouve encore sur les iPad Pro M4 avec l’apparition de la technologie Tandem OLED. Cette derniè… [+2379 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Journal du geek"
-            },
-            "author": "Journal du Geek",
-            "title": "Soldes : Cdiscount massacre le prix du MacBook Air avec une remise démentielle ",
-            "description": "C'est parti pour les soldes d'été 2024. Du mercredi 26 juin au mardi 23 juillet, l'ensemble des commerçants en ligne propose des milliers d'offres. Ce matin, Cdiscount s'illustre avec une offre démentielle sur le MacBook Air M1.",
-            "url": "https://www.journaldugeek.com/bonplan/soldescdiscountmassacreleprixdumacbookairavecuneremisedementielle/",
-            "urlToImage": "https://www.journaldugeek.com/app/uploads/2024/05/MacBookAir.jpg",
-            "publishedAt": "20240626T07:31:01Z",
-            "content": "Dans la limite de stockas disponibles, Cdiscount propose donc l’excellentissime MacBook Air M1 au prix imbattable de 799 euros. Affiché à 814 euros, il faut utiliser le code 15DES129 pour obtenir une… [+4229 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Applesfera.com"
-            },
-            "author": "Jesús Quesada",
-            "title": "Tu Mac como recién salido de la Apple Store con Intego Mac Washing Machine X9",
-            "description": "Se ha extendido la creencia de que los ordenadores Mac no necesitan mantenimiento a diferencia de los que tienen sistema operativo Windows 11, y no es cierto. Los MacBook, iMac y otros equipos de Apple acumulan \"basura\" de las aplicaciones instaladas y archiv…",
-            "url": "https://www.applesfera.com/seleccion/tumaccomoreciensalidoapplestoreintegomacwashingmachinex9",
-            "urlToImage": "https://i.blogs.es/5330ef/macwashingmachinex91/840_560.jpeg",
-            "publishedAt": "20240626T07:30:54Z",
-            "content": "Se ha extendido la creencia de que los ordenadores Mac no necesitan mantenimiento a diferencia de los que tienen sistema operativo Windows 11, y no es cierto. Los MacBook, iMac y otros equipos de App… [+2461 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Applesfera.com"
-            },
-            "author": "Álvaro García M.",
-            "title": "Ryanair anuncia que no aceptará tarjetas de embarque en tu iPhone en estos tres aeropuertos. Y el checkin puede salir caro",
-            "description": "Ryanair se ha convertido en una de las aerolíneas más usadas en países como España por sus precios. Sin embargo, tiene algunas diferencias esenciales respecto a otras y que son las que precisamente le permiten ser una low cost. Es el caso de las tarjetas de e…",
-            "url": "https://www.applesfera.com/general/ryanairanunciaquenoaceptaratarjetasembarquetuiphoneestostresaeropuertos",
-            "urlToImage": "https://i.blogs.es/50af00/walletryanair/840_560.jpeg",
-            "publishedAt": "20240626T07:01:16Z",
-            "content": "Ryanair se ha convertido en una de las aerolíneas más usadas en países como España por sus precios. Sin embargo, tiene algunas diferencias esenciales respecto a otras y que son las que precisamente l… [+2574 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Theregister.com"
-            },
-            "author": "Brandon Vigliarolo",
-            "title": "Apple tells emulator developers it's OK with retro games – not entire OSes",
-            "description": "We sure hope this won't upset European regulators given how great their relationship is with Apple right now\nA pair of developers have come away from encounters with Apple's latest rules regarding video game emulators in its App Store and concluded the iGiant…",
-            "url": "https://www.theregister.com/2024/06/26/apple_emulation_eu/",
-            "urlToImage": "https://regmedia.co.uk/2024/06/26/shutterstock_retro.jpg",
-            "publishedAt": "20240626T06:41:11Z",
-            "content": "A pair of developers have come away from encounters with Apple's latest rules regarding video game emulators in its App Store and concluded the iGiant is not okay with software that emulates a whole … [+3207 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Theregister.com"
-            },
-            "author": "Simon Sharwood",
-            "title": "Organized crime and domestic violence perps are big buyers of tracking devices",
-            "description": "Australian study finds GPS trackers – and sometimes AirTags – are in demand for the wrong reasons\nTracking devices are in demand from organized crime groups and known perpetrators of domestic violence, according to an Australian study.…",
-            "url": "https://www.theregister.com/2024/06/26/criminals_use_gps_bluetooth_trackers/",
-            "urlToImage": "https://regmedia.co.uk/2024/06/26/shutterstock_vehicle_gps_tracking.jpg",
-            "publishedAt": "20240626T03:45:06Z",
-            "content": "Tracking devices are in demand from organized crime groups and known perpetrators of domestic violence, according to an Australian study.\r\nThe headline findings of Project Hakea conducted by the Crim… [+4996 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Pressecitron"
-            },
-            "author": "Pressecitron",
-            "title": "Galaxy Z Fold6, Galaxy Z Flip6, Galaxy Ring : les annonces attendues au Samsung Galaxy Unpacked du 10 juillet",
-            "description": "La date de la conférence a été confirmée tout récemment par le constructeur.",
-            "url": "https://www.pressecitron.net/galaxyzfold6galaxyzflip6galaxyringlesannoncesattenduesausamsunggalaxyunpackeddu10juillet/",
-            "urlToImage": "https://www.pressecitron.net/app/uploads/2024/06/galaxyring.jpg",
-            "publishedAt": "20240626T06:38:01Z",
-            "content": "Par le biais d’un nouveau communiqué de presse, Samsung vient tout juste de dévoiler la date de son prochain événement “Unpacked”. Le rendezvous est ainsi fixé au 10 juillet, à quinze heures (heure … [+3786 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Golem.de"
-            },
-            "author": "Michael Linden",
-            "title": "Datenschutzbedenken: Apple lehnt KIPartnerschaft mit Meta ab",
-            "description": "Apple ist mit OpenAI eine KIPartnerschaft eingegangen und hat mit Meta entgegen anderslautender Berichte nichts zu tun haben wollen. (Apple Intelligence, Apple)",
-            "url": "https://www.golem.de/sonstiges/zustimmung/auswahl.html?from=https%3A%2F%2Fwww.golem.de%2Fnews%2Fdatenschutzbedenkenapplelehntkipartnerschaftmitmetaab2406186444.html&referer=https%3A%2F%2Ft.co%2F19abb7db73",
-            "urlToImage": null,
-            "publishedAt": "20240626T07:12:02Z",
-            "content": "Besuchen Sie Golem.de wie gewohnt mit Werbung und Tracking,\r\n indem Sie der Nutzung aller Cookies zustimmen.\r\n Details zum Tracking finden Sie im Privacy Center.\r\nSkript wurde nicht geladen. Informat… [+607 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Xataka Android"
-            },
-            "author": "Pepu Ricca",
-            "title": "Google se prepara para el lanzamiento de los Pixel 9: este es el teaser que adelanta el anunciado diseño",
-            "description": "Que Google encara la recta final hasta el lanzamiento de sus nuevos móviles no es ninguna sorpresa. Los Google Pixel 9 verán la luz en agosto, concretamente, el martes 13 según rezan las invitaciones. Cierto es también que pocos secretos le quedan tras ver la…",
-            "url": "https://www.xatakandroid.com/movilesandroid/googlesepreparaparalanzamientopixel9esteteaserqueadelantaanunciadodiseno",
-            "urlToImage": "https://i.blogs.es/e80a93/googlepixel9teaser/840_560.jpeg",
-            "publishedAt": "20240626T08:30:53Z",
-            "content": "Que Google encara la recta final hasta el lanzamiento de sus nuevos móviles no es ninguna sorpresa. Los Google Pixel 9 verán la luz en agosto, concretamente, el martes 13 según rezan las invitaciones… [+2053 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "NPR"
-            },
-            "author": "Emily Kwong",
-            "title": "The human brain is hardwired to recognize faces. But what if you can't?",
-            "description": "Humans are hardwired to see faces — even in inanimate objects. We have a lima beanshaped part of our brains dedicated to facial recognition. But this process isn't always straightforward. Science journalist Sadie Dingfelder is one of 10 million Americans who…",
-            "url": "https://www.npr.org/2024/06/26/1198910315/faceblindnessprosopagnosiamemoryaphantasiasightimagination",
-            "urlToImage": "https://media.npr.org/assets/img/2024/06/25/6.26.24epart_wide8fa79cebae43a57fdfc5a0532ee955a98d8a05f5.jpg?s=1400&c=100&f=jpeg",
-            "publishedAt": "20240626T07:00:59Z",
-            "content": "Freelance science writer Sadie Dingfelder is the author of the new book Do I Know You?, which explores human sight, memory and imagination.\r\nLittle, Brown Spark, an imprint of Little, Brown and Compa… [+1542 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "diezeit",
-                "name": "Die Zeit"
-            },
-            "author": "ZEIT ONLINE: News ",
-            "title": "Mobilfunk: 5GNetz: Westeuropa holt im internationalen Vergleich auf",
-            "description": "Hier finden Sie Informationen zu dem Thema „Mobilfunk“. Lesen Sie jetzt „5GNetz: Westeuropa holt im internationalen Vergleich auf“.",
-            "url": "https://www.zeit.de/news/202406/26/5gnetzwesteuropaholtiminternationalenvergleichauf",
-            "urlToImage": "https://img.zeit.de/news/202406/26/5gnetzwesteuropaholtiminternationalenvergleichaufimagegroup/wide__1300x731",
-            "publishedAt": "20240626T06:25:45Z",
-            "content": "Jeder vierte Mobilfunkvertrag in Westeuropa enthält inzwischen die Möglichkeit, das schnellere 5GNetz nutzen zu können. Mit einer Marktdurchdringung von 26 Prozent liegen die westeuropäischen Mobilf… [+2893 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "MacRumors"
-            },
-            "author": "Eric Slivka",
-            "title": "AirPods and Beats Firmware Updates Address Important Security Issue",
-            "description": "While Apple's release notes for AirPods firmware typically offer few details on included changes, the company has published a separate support document outlining a security issue that was fixed in today's firmware updates for AirPods, AirPods Pro, AirPods Max…",
-            "url": "https://www.macrumors.com/2024/06/25/airpodsbeatsfirmwaresecurityissue/",
-            "urlToImage": "https://images.macrumors.com/t/GleQwxoxNTaXHWiu7q3obFiNo2Q=/2500x/articlenew/2023/04/AirPods3Pro2andMaxNewFirmware.jpg",
-            "publishedAt": "20240626T03:43:05Z",
-            "content": "While Apple's release notes for AirPods firmware typically offer few details on included changes, the company has published a separate support document outlining a security issue that was fixed in to… [+1033 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Les Numériques"
-            },
-            "author": "Rick",
-            "title": "Actualité : Soldes / Soldes informatique – L'ordinateur Portable Apple MacBook Air 15 2023 (M2) 16 Go / 256 Go \"4 étoiles\" à 1 469,00 € (20%)",
-            "description": "L'ordinateur Portable Apple MacBook Air 15 2023 (M2) 16 Go / 256 Go passe sous les 1500 € chez Fnac.com soit une baisse d'environ 20% sur le prix habituellement constaté.",
-            "url": "https://www.lesnumeriques.com/ordinateurportable/soldessoldesinformatiquelordinateurportableapplemacbookair152023m216go256go4etoilesa14690020n223298.html",
-            "urlToImage": "https://cdn.lesnumeriques.com/optim/test/21/210354/20e0170clemacbookair15dapplevoitlavieengrand__1200_678__04230721654.jpg",
-            "publishedAt": "20240626T08:18:00Z",
-            "content": "Modèle concernéCe contenu porte spécifiquement sur le modèle : 16 Go / 256 Go. D'autres déclinaisons existent et leurs prix sont indiqués dans les onglets du tableau cidessous.\r\nApple décline son be… [+2013 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Les Numériques"
-            },
-            "author": "Alexandre Scotti",
-            "title": "Actualité : Pixel 9, Pixel 9 Pro XL, Pixel Watch 3 : Google annonce un évènement estival pour présenter ses nouveaux smartphones",
-            "description": "Contre toute attente, l’évènement de présentation de la nouvelle génération de smartphones Google a été avancé de quelques semaines par rapport aux modèles précédents. Rendezvous donc le 13 août 2024 pour découvrir les Pixel 9.",
-            "url": "https://www.lesnumeriques.com/telephoneportable/pixel9pixel9proxlpixelwatch3googleannonceunevenementestivalpourpresentersesnouveauxsmartphonesn223289.html",
-            "urlToImage": "https://cdn.lesnumeriques.com/optim/news/22/223289/4abbb8d5pixel9googleannonceunevenementestivalpourpresentersesnouveauxsmartphones__1200_678__overflow.jpg",
-            "publishedAt": "20240626T08:28:00Z",
-            "content": "Depuis quelques générations, Google a pris lhabitude de dévoiler ses nouveaux Pixel à lautomne, plus précisément au cours du mois doctobre.\r\nOn a en effet découvert les Pixel 6 le 19 octobre 2021, le… [+1618 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Les Numériques"
-            },
-            "author": "Rick",
-            "title": "Actualité : Soldes / Soldes audio – Les écouteurs true wireless Sony WF1000XM5 Argent \"5 étoiles\" à 249,99 € (13%)",
-            "description": "Les écouteurs true wireless Sony WF1000XM5 Argent passent sous les 250 € chez Fnac.com soit une baisse d'environ 13% sur le prix habituellement constaté. C'est actuellement l'un des meilleurs produit de notre comparatif.",
-            "url": "https://www.lesnumeriques.com/intraecouteurtruewireless/soldessoldesaudiolesecouteurstruewirelesssonywf1000xm5argent5etoilesa2499913n223267.html",
-            "urlToImage": "https://cdn.lesnumeriques.com/optim/test/21/211295/d621d708sonywf1000xm5dumielpourlesoreilles__1200_678__29936926991629_wtmk.jpg",
-            "publishedAt": "20240626T06:08:00Z",
-            "content": "Points forts\r\n<ul><li>Rendu sonore incroyablement précis et dynamique.\r\n</li><li>Scène sonore spacieuse et naturelle.\r\n</li><li>Réduction de bruit redoutable.\r\n</li><li>Bonnes sensations de confort.\r… [+2024 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Xatakamovil.com"
-            },
-            "author": "Sergio Asenjo",
-            "title": "Samsung pone fecha a su gran evento. El esperado Galaxy Ring está a la vuelta de la esquina",
-            "description": "La expectación generada en torno a los próximos lanzamientos de Samsung es muy alta y los rumores acerca de las novedades que la compañía coreana tiene preparadas de cara a su próxima presentación no han dejado de llegar a lo largo de las últimas semanas.\n<!…",
-            "url": "https://www.xatakamovil.com/samsung/samsungponefechaasugraneventoesperadogalaxyringestaavueltaesquina",
-            "urlToImage": "https://i.blogs.es/ae1103/galaxyunpacked/840_560.jpeg",
-            "publishedAt": "20240626T07:30:20Z",
-            "content": "La expectación generada en torno a los próximos lanzamientos de Samsung es muy alta y los rumores acerca de las novedades que la compañía coreana tiene preparadas de cara a su próxima presentación no… [+2129 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Playpcesor.com"
-            },
-            "author": "Esor Huang",
-            "title": "Claude 一分鐘做出亂數抽籤工具、貪吃蛇遊戲，與 ChatGPT 對比",
-            "description": "之前在電腦玩物介紹過由 Anthropic 開發的「 Claude 」生成式 AI 服務 ，他在 2023/10 開放全球使用，那時候就具備一個強大的特色：可以上傳大量文字內容的 PDF 文件，進行 AI 分析與問答。（延伸閱讀： 把 Claude AI 當作免費強大的PDF ...",
-            "url": "https://www.playpcesor.com/2024/06/claudechatgpt.html",
-            "urlToImage": "https://blogger.googleusercontent.com/img/a/AVvXsEg56L8j22Bc9y3KYI0cWY0sgyM6vsqoBS2EkN83JZi9NyxxfsaXYDoQYRcaXcJxVf2Z9OGRVLs7Fz0C5oYEjrPifBMfQ2HLBKKQnVjbNdMqXr5LRTjObs611516nRGibd7mylnxo7Fqz_3tMwnqUaciuFINTZj5KdZuaiQG95584ktP26RgACY=w1200h630pknonu",
-            "publishedAt": "20240626T07:21:00Z",
-            "content": "之前在電腦玩物介紹過由 Anthropic 開發的「 Claude 」生成式 AI 服務，他在 2023/10 開放全球使用，那時候就具備一個強大的特色：可以上傳大量文字內容的 PDF 文件，進行 AI 分析與問答。（延伸閱讀：把 Claude AI 當作免費強大的PDF 文件、論文文獻摘要研究工具）\r\n經過了一年的時間， Claude 從 2.0 版陸續升級到 3.5 Sonnet 版本（20… [+4625 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Frandroid"
-            },
-            "author": "Jennifer Mertens",
-            "title": "Le MacBook Air M1 est à un prix jamais vu pour les soldes d’été, c’est le moment de craquer",
-            "description": "Cdiscount frappe fort pour les soldes d’été avec une réduction jamais vue sur le MacBook Air M1 d’Apple. Ce très bon laptop – encore à la hauteur aujourd'hui, malgré les années qui passent – profite d’une importante réduction qui le rend encore plus intéressa…",
-            "url": "https://www.frandroid.com/bonsplans/2058188_lemacbookairm1estaunprixjamaisvupourlessoldesdetecestlemomentdecraquer",
-            "urlToImage": "https://images.frandroid.com/wpcontent/uploads/2024/06/copiedesoldesetefrenchdays20241.jpg",
-            "publishedAt": "20240626T07:02:07Z",
-            "content": "Cdiscount frappe fort pour les soldes dété avec une réduction jamais vue sur le MacBook Air M1 dApple. Ce très bon laptop encore à la hauteur aujourd'hui, malgré les années qui passent profite dune i… [+5640 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Frandroid"
-            },
-            "author": "Tristan Jacquel",
-            "title": "Test de l’Ultimate Ears Everboom : une enceinte au son puissant à l’épreuve des éléments",
-            "description": "Petite soeur de l’imposante Epicboom, l’UE Everboom combine puissance, robustesse et flottabilité. Taillée pour les virées nature et les (petites) fêtes improvisées où un son plus puissant est essentiel, cette enceinte nomade sait se faire entendre et s’avère…",
-            "url": "https://www.frandroid.com/marques/ultimateears/2058682_testdelultimateearseverboomuneenceinteausonpuissantalepreuvedeselements",
-            "urlToImage": "https://images.frandroid.com/wpcontent/uploads/2024/06/testultimateearsueeverboo1scaled.jpg",
-            "publishedAt": "20240626T07:01:08Z",
-            "content": "L’enceinte Ultimate Ears Everboom // Source : Tristan Jacquel pour Frandroid\r\nUltimate Ears lance quatre nouvelles enceintes Bluetooth portables, étanches et résistantes aux chocs, pour écouter de la… [+10290 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Wired.jp"
-            },
-            "author": "WIRED.jp",
-            "title": "マクルーハンへの回答：空間コンピューティングの時代に人々が手にする権利とは？",
-            "description": "6月28日に、Apple Vision Proが日本で発売される。いよいよ、空間コンピューティング時代に本格的に突入するのかもしれない──。かつて、文明評論家のマーシャル・マクルーハンは「社会が新しいメディアを発展させたとき、社会は、新しいメッセージを表明する権利を得る」と語った。では、空間コンピューティングが発展したこの先、社会はいかなるメッセージを発信しうるのか。⼿にする「権利」のありようを、10名の識者たちが空想する。",
-            "url": "https://wired.jp/article/vol53belightheartedandintelligent/",
-            "urlToImage": "https://media.wired.jp/photos/667a6a426a1822bd6e3cf9f8/16:9/w_1280,c_limit/Q&A_main_5.jpg",
-            "publishedAt": "20240626T03:00:00Z",
-            "content": "08 / 10\r\nNOBUHIKO WATANABESTYLYCOOXRNEWVIEWXR20246\r\n2PCAI\r\n09 / 10\r\nThe medium is the message. 3\r\n10 / 10\r\nCATHY HACKLAISpatial DynamicsCEOLinkedInTop Tech Voice\r\n3D\r\nEdited by Tomonari Cotani, Erina… [+7 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Smartworld.it"
-            },
-            "author": "Vincenzo Ronca",
-            "title": "È tempo di aggiornare le vostre AirPods: ecco i modelli coinvolti",
-            "description": "Apple conferma l'attento supporto a tutti i suoi prodotti, e rilascia un aggiornamento per tutte le sue AirPods.\r\nL'articolo È tempo di aggiornare le vostre AirPods: ecco i modelli coinvolti sembra essere il primo su Smartworld.",
-            "url": "https://www.smartworld.it/news/updateairpodsgiugno2024.html",
-            "urlToImage": "https://www.smartworld.it/images/2024/01/14/comecapireseleairpodssonooriginali2_1200x675.jpg",
-            "publishedAt": "20240626T07:36:00Z",
-            "content": "Tutti coloro che possiedono un prodotto Apple conoscono bene uno dei risvolti positivi più rilevanti, ovvero l'attento supporto software fornito da Apple. Questo riguarda anche le AirPods.\r\nNe parlia… [+1546 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "La Vanguardia"
-            },
-            "author": "Fran Besora",
-            "title": "Apple lanza un nuevo altavoz inalámbrico: así es el Beats Pill",
-            "description": "El regreso del Beats Pill es oficial. Tras muchos rumores, el altavoz inalámbrico de Apple ha vuelto renovado con varias novedades que lo mejoran respecto a la generación anterior, la cual fue discontinuada en 2022. Y regresa por todo lo alto con un precio má…",
-            "url": "https://www.lavanguardia.com/andro4all/apple/applelanzaunnuevoaltavozinalambricoasieselbeatspill",
-            "urlToImage": "https://www.lavanguardia.com/andro4all/hero/2024/06/beatspillenrojofuegoportada.jpg?width=1200",
-            "publishedAt": "20240626T06:52:45Z",
-            "content": "El nuevo beats Pill en color rojo fuego\r\nEl regreso del Beats Pill es oficial. Tras muchos rumores, el altavoz inalámbrico de Apple ha vuelto renovado con varias novedades que lo mejoran respecto a l… [+3127 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "La Vanguardia"
-            },
-            "author": "David Freire",
-            "title": "Apple y Samsung dominan el mercado europeo: 8 de los 10 móviles más vendidos en 2024 son de estas 2 marcas",
-            "description": "Como es habitual por estas fechas, la empresa de análisis de mercados Canalys [ha publicado un informe])https://canalys.com/newsroom/europesmartphonemarketQ12024) con los 10 smartphones más vendidos en Europa durante el primer trimestre del 2024, una clas…",
-            "url": "https://www.lavanguardia.com/andro4all/moviles/appleysamsungdominanelmercadoeuropeo8delos10movilesmasvendidosen2024sondeestas2marcas",
-            "urlToImage": "https://www.lavanguardia.com/andro4all/hero/2024/06/galaxys24ultrayiphone15promaxportada.jpg?width=1200",
-            "publishedAt": "20240626T07:01:32Z",
-            "content": "El Samsung Galaxy S24 Ultra y el iPhone 15 Pro Max fueron dos de los smartphones más vendidos en Europa en el primer trimestre del año / Imagen: Urban Tecno\r\nComo es habitual por estas fechas, la emp… [+2912 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "La Vanguardia"
-            },
-            "author": "Pablo Hernando Illán",
-            "title": "Cómo instalar una VPN en una Smart TV paso a paso",
-            "description": "Vamos a explicarte cómo instalar una VPN en una Smart TV. Existen muchas razones para ello, que van desde acceder al catálogo de una plataforma de streaming de otro país, hasta ocultar tu IP para navegar por la red anónimamente o realizar descargas con mayor …",
-            "url": "https://www.lavanguardia.com/andro4all/tecnologia/comoinstalarunavpnenunasmarttvpasoapaso",
-            "urlToImage": "https://www.lavanguardia.com/andro4all/hero/2024/06/comoinstalarunavpnenunasmarttvpasoapaso.jpg?width=1200",
-            "publishedAt": "20240626T08:00:30Z",
-            "content": "Existen motivos de peso por los que instalar una VPN en una Smart TV, como te indicaremos posteriormente\r\nVamos a explicarte cómo instalar una VPN en una Smart TV. Existen muchas razones para ello, q… [+7915 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Clubic"
-            },
-            "author": "Guillaume Belfiore",
-            "title": "Sur iOS, vous pouvez définir une page d'accueil personnalisée pour Safari, voici comment",
-            "description": "Sur iPhone ou iPad, le navigateur web Safari présente peu d'éléments de personnalisation. Mais peutêtre avez envie d'ouvrir d'emblée une adresse web en particulier, voire une page personnalisée concoctée par vos soins. Dans ce cas, il vous faut l'application…",
-            "url": "https://www.clubic.com/actualite530631suriosvouspouvezdefinirunepagedaccueilpersonnaliseepoursafarivoicicomment.html",
-            "urlToImage": "https://pic.clubic.com/v1/images/2220984/raw",
-            "publishedAt": "20240626T06:53:00Z",
-            "content": "L'objectif de Homepage vise à proposer une ergonomie similaire à Safari sur macOS. Toutefois, rappelons qu'en Europe, le Digital Marketing Act oblige Apple à permettre aux éditeurs tiers de proposer … [+253 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Tomshw.it"
-            },
-            "author": "Andrea Riviera",
-            "title": "I grandi giochi floppano su iOS, l'idea gaming di Apple non decolla",
-            "description": "Il giochi di grandi produzioni, conosciuti come tripla A, su piattaforme iOS sembrano non funzionare per nulla. Secondo le ultime analisi, titoli di rilievo come Assassin's Creed Mirage, Resident Evil...",
-            "url": "https://www.tomshw.it/videogioco/flopinaspettatoperassassinscreedresidenteviledeathstrandingsuios20240626",
-            "urlToImage": "https://www.tomshw.it/storage/media/2023/10/3071/ResidentEvil4Remake.jpg",
-            "publishedAt": "20240626T08:07:41Z",
-            "content": "Il giochi di grandi produzioni, conosciuti come tripla A, su piattaforme iOS sembrano non funzionare per nulla. Secondo le ultime analisi, titoli di rilievo come Assassin's Creed Mirage, Resident Evi… [+1952 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Idownloadblog.com"
-            },
-            "author": "Anthony Bouchard",
-            "title": "Apple releases firmware updates for most AirPods models",
-            "description": "Apple on Tuesday released firmware updates for almost all of its AirPods models, introducing bug fixes & improvements.",
-            "url": "https://www.idownloadblog.com/2024/06/25/airpodsfirmwareupdate6f8and6a326/",
-            "urlToImage": "https://media.idownloadblog.com/wpcontent/uploads/2023/06/AppleAirPodsProSecondGenerationModelYear2022.jpg",
-            "publishedAt": "20240626T01:30:52Z",
-            "content": "Apple on Tuesday released firmware updates for the companys entire lineup of AirPods products spanning nearly every generation, including the AirPods, AirPods Pro, and AirPods Max. The only exclusion… [+2755 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Idownloadblog.com"
-            },
-            "author": "Anthony Bouchard",
-            "title": "OpenAI opens access to its ChatGPT desktop app to all macOS users",
-            "description": "OpenAI has finally opened up access to its ChatGPT app for macOS for all users, unlocking powerful AIbased features for all.",
-            "url": "https://www.idownloadblog.com/2024/06/25/chatgptavailableformacos/",
-            "urlToImage": "https://media.idownloadblog.com/wpcontent/uploads/2024/06/ChatGPTformacOSBannerImage.png",
-            "publishedAt": "20240626T00:33:45Z",
-            "content": "The ChatGPT desktop app for macOS has been available for some time, but that didnt mean everybody could use it. In fact, the ChatGPT desktop app experience was very much a phased rollout, which mean… [+2140 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Googlewatchblog.de"
-            },
-            "author": "Jens",
-            "title": "Google Wallet: Hotelschlüsselkarten lassen sich jetzt in der digitalen Geldbörse ablegen; Update wird ausgerollt",
-            "description": "Mit der digitalen Geldbörse Google Wallet lassen sich immer mehr Dinge, die man normalerweise in der physischen Version dieses Gegenstands mit sich tragen würde, ersetzen. Jetzt hat das Team pünktlich zur bevorstehenden Urlaubszeit ein weiteres Update angekün…",
-            "url": "https://www.googlewatchblog.de/?p=228232",
-            "urlToImage": "https://www.googlewatchblog.de/wpcontent/uploads/googlewalletcoverlogo.jpg",
-            "publishedAt": "20240626T06:30:01Z",
-            "content": "Mit der digitalen Geldbörse Google Wallet lassen sich immer mehr Dinge, die man normalerweise in der physischen Version dieses Gegenstands mit sich tragen würde, ersetzen. Jetzt hat das Team pünktlic… [+1864 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Nextpit.de"
-            },
-            "author": "Camila Rinaldi",
-            "title": "Wir müssen über einheitliche LadeStandards bei Smartwatches reden!",
-            "description": "Wir blicken in diesem Meinungsbeitrag auf die Probleme rund um Ladelösungen für Smartwatches und andere beliebte Wearables.",
-            "url": "https://www.nextpit.de/wirbrauchendiestandardisierungvonsmartwatchladegeraeten",
-            "urlToImage": "https://fs.npstatic.com/userfiles/7687254/image/Smartwatch_Chargers.jpg",
-            "publishedAt": "20240626T04:30:01Z",
-            "content": "Während Ihr vielleicht keine Probleme mit dem Ladegerät für eure Smartwatch oder andere Wearables habt, analysiere ich in meiner Rolle als WearableReviewer zahlreiche Geräte und teile meine Erfahrun… [+10504 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "TalkAndroid"
-            },
-            "author": "Nivenka Stanton",
-            "title": "Beyond the Room – Complete Walkthrough and Guide",
-            "description": "Find the complete stepbystep guide for Beyond The Room, another puzzle game from Dark Dome!",
-            "url": "https://www.talkandroid.com/481761beyondtheroomcompletewalkthrough/",
-            "urlToImage": "https://www.talkandroid.com/wpcontent/uploads/2024/06/BeyondTheRoomFeaturedImage.png",
-            "publishedAt": "20240626T07:27:46Z",
-            "content": "Dark Dome, the developers of Another Shadow and Escape From The Shadows, bring us the latest in the series of Dark Dome puzzle games; Beyond The Room. The eighth installment is sure to keep players o… [+31738 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Numerama"
-            },
-            "author": "Nicolas Lellouche",
-            "title": "En 2024, Samsung et Google lanceront leurs nouveaux smartphones en plein milieu de l’été",
-            "description": "À quelques heures d'intervalle, Samsung et Google ont tous deux confirmé les dates de leurs futures conférences, où seront annoncés les Galaxy Z et la Galaxy Ring pour l'un, et la gamme Pixel 9 pour l'autre. L'été s'annonce particulièrement brûlant dans le mo…",
-            "url": "https://www.numerama.com/tech/1766846en2024samsungetgooglelancerontleursnouveauxsmartphonesenpleinmilieudelete.html",
-            "urlToImage": "https://www.numerama.com/wpcontent/uploads/2024/06/paris.jpg",
-            "publishedAt": "20240626T08:26:42Z",
-            "content": "À quelques heures d’intervalle, Samsung et Google ont tous deux confirmé les dates de leurs futures conférences, où seront annoncés les Galaxy Z et la Galaxy Ring pour l’un, et la gamme Pixel 9 pour … [+6062 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Techbang.com"
-            },
-            "author": "小治",
-            "title": "Apple 新版 iPad/iPad Pro 開賣，Logitech 羅技同步推出新款 Combo Touch 鍵盤保護套系列",
-            "description": "Logitech 羅技因應新款 M4 版 iPad Pro 和 M2 版 iPad Air，在 Apple 開賣之際推出專為最新兩款 iPad 設計的 Combo Touch 鍵盤保護套。Logitech 羅技因應新款 M4 版 iPad Pro 和 M2 版 iPad Air，在 Apple 開賣之際推出專為最新兩款 iPad 設計的 Combo Touch 鍵盤保護套。最新 Combo Touch 鍵盤保護套，以更薄、更輕，及更大面積觸控板設計問世，適用於打字、繪畫、瀏覽或閱讀等工作模式，讓使用者輕鬆實踐行動…",
-            "url": "https://www.techbang.com/posts/116349appleipadipadprologitechcombotouch",
-            "urlToImage": "https://cdn0.techbang.com/system/excerpt_images/116349/original/2d276dab9b8f8cd266b443f6d09821a3.jpg?1719303283",
-            "publishedAt": "20240626T00:30:00Z",
-            "content": "Logitech M4 iPad Pro M2 iPad Air Apple iPad Combo Touch Combo Touch \r\nCombo Touch \r\nLogitech Combo Touch M4 iPad Pro M2 iPad Air 1060 M4 iPad Pro Combo Touch 22% 17% iPad Air 13% 14% mac 13 67%11 10… [+450 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Techbang.com"
-            },
-            "author": "janus",
-            "title": "ChatGPT APP正式登上Mac平台：向所有使用者開放，支援語音對話",
-            "description": "OpenAI 的 ChatGPT Mac 版應用已向所有使用者開放，支援語音對話OpenAI 公司宣佈，其首款適用於 Mac 的 ChatGPT App正式面向所有使用者開放下載。先前一個月，該APP一直處於測試階段，僅 Plus 付費訂閱使用者可以使用。\nOpenAI 稱，ChatGPT 的 Mac 應用旨在與使用者日常操作無縫內建，其原生支援 Mac 系統，並提供方便的快速鍵 (Command + 空格鍵) 允許使用者隨時隨地啟動應用。使用者可以輕鬆與聊天機器人進行互動，並可選擇將檔案、照片和螢幕截圖等附加到…",
-            "url": "https://www.techbang.com/posts/116399thechatgptappisofficiallyavailableonthemacplatform",
-            "urlToImage": "https://cdn1.techbang.com/system/excerpt_images/116399/original/1c744a69b6b5e874098220abbe745892.jpg?1719383114",
-            "publishedAt": "20240626T06:25:00Z",
-            "content": "OpenAI Mac ChatGPT AppAPP Plus \r\nOpenAI ChatGPT Mac Mac (Command + ) ChatGPT \r\nAPP ChatGPT OpenAI Mac GPT4o \r\nChatGPT OpenAI Mac ChatGPT Plus \r\nChatGPT for MacApple SiliconM1macOS 14\r\nWindowsChatGPT"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Techbang.com"
-            },
-            "author": "netizen",
-            "title": "歐盟再次對微軟發起反壟斷調查，因微軟將 Teams 與 Office 強制搭售引發爭議",
-            "description": "歐盟委員會認為，微軟透過將Teams與其熱門的商業生產力套件綁定在一起，使Teams獲得了「不當優勢」，近日，歐盟委員會宣布對科技巨頭微軟發起新一輪反壟斷調查，指控其將Teams通訊應用與Office 365和Microsoft 365等廣受歡迎的辦公套件強制搭售，涉嫌違反歐盟反壟斷法規。這是微軟15年來首次遭到歐盟反壟斷指控，再次引發了人們對科技巨頭市場壟斷行為的關注和討論。\n歐盟委員會在聲明中表示，已向微軟發出異議聲明，列舉了對其Teams搭售行為的諸多擔憂。委員會認為，微軟可能透過將Teams與其熱門的商業…",
-            "url": "https://www.techbang.com/posts/116378theeuropeanunionhasonceagainlaunchedanantitrust",
-            "urlToImage": "https://cdn1.techbang.com/system/excerpt_images/116378/original/811abc331c84844e0910482b77245087.jpg?1719328144",
-            "publishedAt": "20240626T03:00:00Z",
-            "content": "TeamsOffice 365Microsoft 36515\r\nTeamsTeamsTeams·Margrethe VestagerTeamsTeams\r\nSlack20207SlackTeamsOfficeTeams\r\n·Brad SmithTeamsTeamsOfficeTeamsOffice 365\r\n10%\r\n<ol><li>2004Windows Media PlayerWindows… [+99 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Basicthinking.de"
-            },
-            "author": "Maria Gramsch",
-            "title": "Tap to Pay: Apple startet neue Zahlungsmethode in Deutschland",
-            "description": "Apple bringt eine neue Zahlungsmethode nach Deutschland. Künftig können Händler über das iPhone kontaktlose Zahlungen annehmen. Wir erklären dir, wie Tap to Pay funktioniert. Bereits im Jahr 2022 hat Apple die Zahlungsfunktion Tap to Pay eingeführt. Seither i…",
-            "url": "https://www.basicthinking.de/blog/2024/06/26/wiefunktionierttaptopay/",
-            "urlToImage": "https://www.basicthinking.de/blog/wpcontent/uploads/2024/06/wiefunktionierttaptopay.jpg",
-            "publishedAt": "20240626T08:15:43Z",
-            "content": "Apple bringt eine neue Zahlungsmethode nach Deutschland. Künftig können Händler über das iPhone kontaktlose Zahlungen annehmen. Wir erklären dir, wie Tap to Pay funktioniert.\r\nBereits im Jahr 2022 ha… [+2709 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "techradar",
-                "name": "TechRadar"
-            },
-            "author": "cesartechradar@gmail.com (Cesar Cadenas)",
-            "title": "Want a remote control for your smart home? SwitchBot has made a Mattercompatible one",
-            "description": "The Universal Remote lets you control smart home devices, but to harness its full potential, you'll need a Matter hub.",
-            "url": "https://www.techradar.com/home/smarthome/wantaremotecontrolforyoursmarthomeswitchbothasmadeamattercompatibleonewithafewcatches",
-            "urlToImage": "https://cdn.mos.cms.futurecdn.net/VDEC7px4moX4cgFYqSbCng120080.jpg",
-            "publishedAt": "20240626T04:00:01Z",
-            "content": "SwitchBot has launched a unique piece of tech capable of controlling smart home devices and infrared appliances. And the best part is you don’t need to connect it to a smartphone or to the internet a… [+3603 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Forbes"
-            },
-            "author": "Ewan Spence, Senior Contributor, \n Ewan Spence, Senior Contributor\n https://www.forbes.com/sites/ewanspence/",
-            "title": "Samsung VP James Kitto Interview: The Union Of Qualcomm’s ARM, Windows’ AI And Samsung’s Galaxy Book4 Edge",
-            "description": "The Galaxy Book4 Edge is one of the first Copilot+PC laptops. What benefits could Samsung's union of Windows, ARM, and AI offer?",
-            "url": "https://www.forbes.com/sites/ewanspence/2024/06/25/samsunggalaxybook4edgeaiwindowsqualcommsnapdragonxeliteinterviewgameskitto/",
-            "urlToImage": "https://imageio.forbes.com/specialsimages/imageserve/667b5300c6bd4a3d366fcc0d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-            "publishedAt": "20240626T08:15:00Z",
-            "content": "With the Galaxy Book4 Edge launch last week, Samsung joined the first wave of Windows laptop manufacturers using Qualcomms Snapdragon X Elite, an ARMbased chipset designed for laptops rather than sm… [+5824 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Forbes"
-            },
-            "author": "Mark Sparrow, Senior Contributor, \n Mark Sparrow, Senior Contributor\n https://www.forbes.com/sites/marksparrow/",
-            "title": "Ultimate Ears EVERBOOM Is A Bluetooth Speaker To Get Excited Over",
-            "description": "This rugged and portable Bluetooth speaker from Logitech brand Ultimate Ears has a superb sound and can go almost anywhere.",
-            "url": "https://www.forbes.com/sites/marksparrow/2024/06/26/ultimateearseverboomisabluetoothspeakertogetexcitedover/",
-            "urlToImage": "https://imageio.forbes.com/specialsimages/imageserve/66705813ba43429cc1280f9c/0x0.jpg?format=jpg&crop=1200,675,x0,y200,safe&height=900&width=1600&fit=bounds",
-            "publishedAt": "20240626T07:00:00Z",
-            "content": "The new Logitech Ultimate Ears EVERBOOM is an ideal speaker for hiking and camping. It has an IP67 ... [+] rating making it waterproof and dustproofit even floats on water.\r\nMatt Nager\r\nOnce youve re… [+5866 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Iphoneitalia.com"
-            },
-            "author": "Giuseppe Migliorino",
-            "title": "Apple aggiorna AirPods, AirPods Pro, AirPods Max e Beats",
-            "description": "Il nuovo firmware corregge alcune falle di sicurezza. \nLink all'articolo originale: Apple aggiorna AirPods, AirPods Pro, AirPods Max e Beats",
-            "url": "https://www.iphoneitalia.com/827715/appleaggiornaairpodsairpodsproairpodsmaxebeats",
-            "urlToImage": "https://static.iphoneitalia.com/wpcontent/uploads/2022/10/airpodspro2_5scaled.jpeg",
-            "publishedAt": "20240626T05:38:16Z",
-            "content": "Apple ha rilasciato un nuovo aggiornamento firmware per diversi prodotti, tra cui le versioni Lightning e USBC di AirPods Pro 2, ‌AirPods Pro‌ di prima generazione, AirPods Max, AirPods di seconda e… [+1546 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "iLounge"
-            },
-            "author": "Samantha Wiley",
-            "title": "Apple had a talk With Meta for AI partnership",
-            "description": "A recent report claimed that Apple and Meta had a discussion on possibly integrating Meta’s AI technology for the upcoming iOS 18. The Wall Street Journal shared information about Meta and Apple talking about a partnership for AI on iOS 18. Llama 2, developed…",
-            "url": "https://www.ilounge.com/news/apple/applehadatalkwithmetaforaipartnership",
-            "urlToImage": "https://www.ilounge.com/wpcontent/uploads/2024/06/MetaforAI.png",
-            "publishedAt": "20240626T01:43:25Z",
-            "content": "A recent report claimed that Apple and Meta had a discussion on possibly integrating Meta’s AI technology for the upcoming iOS 18.\r\nThe Wall Street Journal shared information about Meta and Apple tal… [+678 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "iLounge"
-            },
-            "author": "Samantha Wiley",
-            "title": "visionOS 2 beta developer seed launches",
-            "description": "The second visionOS 2 beta software update was released to developers. The latest software update arrived two weeks after its predecessor and is now available to access for developers. Those registered can download and open it through the Settings, then Softw…",
-            "url": "https://www.ilounge.com/news/visionos2betadeveloperseedlaunches",
-            "urlToImage": "https://www.ilounge.com/wpcontent/uploads/2024/06/visionOS2.png",
-            "publishedAt": "20240626T01:45:23Z",
-            "content": "The second visionOS 2 beta software update was released to developers.\r\nThe latest software update arrived two weeks after its predecessor and is now available to access for developers. Those registe… [+714 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "iLounge"
-            },
-            "author": "Samantha Wiley",
-            "title": "External drive formatting added to iOS 18",
-            "description": "iOS 18 users will soon be able to format external drives through their iPads and iPhones. Apple intends iOS users to access and format external drives that are connected to their respective devices. The latest developer beta shows new file format options with…",
-            "url": "https://www.ilounge.com/news/externaldriveformattingaddedtoios18",
-            "urlToImage": "https://www.ilounge.com/wpcontent/uploads/2024/06/iOS187.png",
-            "publishedAt": "20240626T01:41:44Z",
-            "content": "iOS 18 users will soon be able to format external drives through their iPads and iPhones.\r\nApple intends iOS users to access and format external drives that are connected to their respective devices.… [+677 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "iLounge"
-            },
-            "author": "Samantha Wiley",
-            "title": "The Anker MagGo 3in1 Wireless Charging Station is $15 Off",
-            "description": "Grab today’s deal if you like the idea of conveniently charging your essential devices without the need to hunt for cables. The Anker MagGo 3in1 Wireless Charging Station is down to just $84.99 from its original price of $100 on Amazon. The MagGo is a sleek…",
-            "url": "https://www.ilounge.com/news/theankermaggo3in1wirelesschargingstationis15off",
-            "urlToImage": "https://www.ilounge.com/wpcontent/uploads/2024/06/AnkerMagGo3in1WirelessChargingStation.png",
-            "publishedAt": "20240626T01:48:15Z",
-            "content": "Grab today’s deal if you like the idea of conveniently charging your essential devices without the need to hunt for cables. The Anker MagGo 3in1 Wireless Charging Station is down to just $84.99 fro… [+719 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Olhardigital.com.br"
-            },
-            "author": "Danilo Oliveira",
-            "title": "5 marcas de Notebooks que você precisa conhecer",
-            "description": "Apesar de algumas marcas específicas dominarem o mercado de notebooks, existem outras ótimas opções para você conhecer. Confira nossa lista.\nO post 5 marcas de Notebooks que você precisa conhecer apareceu primeiro em Olhar Digital.",
-            "url": "https://olhardigital.com.br/2024/06/26/dicasetutoriais/5marcasdenotebooksquevoceprecisaconhecer/",
-            "urlToImage": "https://img.odcdn.com.br/wpcontent/uploads/2024/06/NotebookcommouseexternoviaStefanStefancikUnsplash.jpg",
-            "publishedAt": "20240626T07:20:00Z",
-            "content": "Quando pensamos em comprar um notebook, os nomes que normalmente vêm à mente são aqueles que dominam o mercado: Dell, HP, Lenovo, Apple e Asus. No entanto, existem várias marcas de notebooks menos co… [+4694 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Olhardigital.com.br"
-            },
-            "author": "Ana Julia Pilato",
-            "title": "Adeus, Suno? Gravadoras processam empresas que fazem música com IA",
-            "description": "Startups responsáveis por geradores de música de inteligência artificial são acusadas de explorar obras de artistas como Mariah Carey\nO post Adeus, Suno? Gravadoras processam empresas que fazem música com IA apareceu primeiro em Olhar Digital.",
-            "url": "https://olhardigital.com.br/2024/06/26/pro/adeussunogravadorasprocessamempresasquefazemmusicacomia/",
-            "urlToImage": "https://img.odcdn.com.br/wpcontent/uploads/2024/06/iamusicascaled.jpg",
-            "publishedAt": "20240626T03:05:00Z",
-            "content": "Gravadoras como Sony Music Entertainment, Universal Music Group e Warner Records estão movendo processos contra a Suno e a Udio, geradores de música de IA, por violação de direitos autorais. De acord… [+2032 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Olhardigital.com.br"
-            },
-            "author": "Nayra Teles",
-            "title": "Pix, Drex e Super App: Febraban Tech traz o futuro das transações",
-            "description": "A Febraban Tech é a maior feira de inovação no setor financeiro do país. O evento é realizado em SP nesta semana\nO post Pix, Drex e Super App: Febraban Tech traz o futuro das transações apareceu primeiro em Olhar Digital.",
-            "url": "https://olhardigital.com.br/2024/06/26/pro/pixdrexesuperappfebrabantechtrazofuturodastransacoes/",
-            "urlToImage": "https://olhardigital.com.br/wpcontent/uploads/2024/06/financas1024x1024.png",
-            "publishedAt": "20240626T03:31:26Z",
-            "content": "A forma como lidamos com dinheiro mudou definitivamente, e o futuro aponta para um sistema cada vez mais instantâneo e digital. Tecnologias como o Pix, que já se tornou parte integrante da vida de qu… [+4284 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "3dnews.ru"
-            },
-            "author": null,
-            "title": "Samsung анонсировала летнюю презентацию Unpacked — Galaxy Z Fold6, Z Flip6 и Ring представят 10 июля",
-            "description": "Ближайшее летнее мероприятие Samsung Unpacked состоится 10 июля в Париже, сообщил накануне корейский производитель. В видеоанонсе презентации делается намёк на складные устройства, а сама компания уточняет: «Приготовьтесь раскрыть для себя мощь Galaxy AI, кот…",
-            "url": "https://3dnews.ru/1107067/letneemeropriyatiesamsungunpackedsostoitsya10iyulya",
-            "urlToImage": "https://3dnews.ru/assets/external/illustrations/2024/06/26/1107067/galaxyunpacked.jpg",
-            "publishedAt": "20240626T08:19:00Z",
-            "content": "Samsung Unpacked 10 , . , : « Galaxy AI, Galaxy Z Galaxy». Samsung Galaxy Ring.\r\n: news.samsung.com\r\n, Samsung Galaxy Z Fold6 Z Flip6 : Z Flip6 , Z Fold6 — . , Samsung .\r\n , Galaxy Ring, Unpacked Mo… [+129 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Javacodegeeks.com"
-            },
-            "author": "Omozegie Aziegbe",
-            "title": "Finding a Key’s Index in Java LinkedHashMap",
-            "description": "The Java LinkedHashMap class combines a hash table and linked list to maintain predictable iteration order, unlike HashMap. However, LinkedHashMap does not provide a direct method to get the position (index) of a keyvalue pair. This article explores methods …",
-            "url": "https://www.javacodegeeks.com/findingakeysindexinjavalinkedhashmap.html",
-            "urlToImage": "https://www.javacodegeeks.com/wpcontent/uploads/2012/10/javalogo.jpg",
-            "publishedAt": "20240626T06:50:56Z",
-            "content": "The Java LinkedHashMap class combines a hash table and linked list to maintain predictable iteration order, unlike HashMap. However, LinkedHashMap does not provide a direct method to get the position… [+6377 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Javacodegeeks.com"
-            },
-            "author": "Eleftheria Drosopoulou",
-            "title": "When to Use What: Types vs. Interfaces in TypeScript",
-            "description": "If you dream of writing code that’s not only powerful but also crystal clear then typeScript, offers some amazing tools to achieve just that. Two of these powerhouses are types and interfaces, and understanding them is key to building strong and maintainable …",
-            "url": "https://www.javacodegeeks.com/2024/06/whentousewhattypesvsinterfacesintypescript.html",
-            "urlToImage": "https://www.javacodegeeks.com/wpcontent/uploads/2014/01/javascriptlogo.jpg",
-            "publishedAt": "20240626T05:15:00Z",
-            "content": "If you dream of writing code that’s not only powerful but also crystal clear then typeScript, offers some amazing tools to achieve just that. Two of these powerhouses are types and interfaces, and un… [+7092 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Neowin"
-            },
-            "author": "Sagar Naresh",
-            "title": "Moto Tag is Motorola's betterlooking answer to Apple AirTags that works with Android",
-            "description": "Motorola has officially launched its Apple AirTags competitor, the Moto Tag, which works with Android, and the new Google Find My Device network. It features Bluetooth and UWB for precision tracking. Read more...",
-            "url": "https://www.neowin.net/news/mototagismotorolasbetterlookinganswertoappleairtagsthatworkswithandroid/",
-            "urlToImage": "https://cdn.neowin.com/news/images/uploaded/2024/06/1719384698_mototag_story.jpg",
-            "publishedAt": "20240626T07:20:01Z",
-            "content": "If you are in the market looking to purchase a device tracker, the popular names that would pop up would be Apple AirTags or the different options from Tile. However, the AirTag is quite popular beca… [+1864 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "3dnews.ru"
-            },
-            "author": null,
-            "title": "AMD пообещала использовать новейшие техпроцессы в каждом следующем поколении своих чипов",
-            "description": "Исполнительный вицепрезидент AMD Форрест Норрод (Forrest Norrod), который в компании курирует серверное направление бизнеса, подчеркнул в недавнем интервью The Next Platform, что условия конкуренции с Intel вынуждают его компанию полагаться исключительно на …",
-            "url": "https://3dnews.ru/1107062/amdbudetispolzovatnoveyshietehprotsessivkagdomizsleduyushchihpokoleniysvoihproduktov",
-            "urlToImage": "https://3dnews.ru/assets/external/illustrations/2024/06/26/1107062/epyc_01.jpg",
-            "publishedAt": "20240626T07:13:00Z",
-            "content": " AMD (Forrest Norrod), , The Next Platform, Intel , , .\r\n: AMD\r\nAMD , Intel. « , , , », — AMD . AMD « , TSMC».\r\n  AMD : « TSMC . , ». , , AMD . AMD , .\r\nBernstein , 2 TSMC AMD 2026 . Intel , TSMC … [+15 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Skift"
-            },
-            "author": "Skift",
-            "title": "U.S. Hotels’ Performance, Lufthansa’s Carbon Surcharge and Oslo’s Offbeat Ad",
-            "description": "Good morning from Skift. It’s Wednesday, June 26, and here’s what you need to know about the business of travel today.  Listen Now  Subscribe Apple",
-            "url": "http://skift.com/2024/06/26/ushotelsperformancelufthansascarbonsurchargeandoslosoffbeatad/",
-            "urlToImage": "https://skift.com/wpcontent/uploads/2024/06/ScreenShot20240625at9.05.10AMe1719390949921.png",
-            "publishedAt": "20240626T08:36:41Z",
-            "content": "Good morning from Skift. Its Wednesday, June 26, and heres what you need to know about the business of travel today. \r\nApple Podcasts | Spotify | Overcast | Google Podcasts\r\nThe U.S. hotel industrys … [+2148 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Tinhte.vn"
-            },
-            "author": "noreply@tinhte.vn (Cáo  Foxtek), Cáo  Foxtek",
-            "title": "Google xác nhận Pixel 9 Series sẽ ra mắt tại sự kiện Made by Google ngày 13/8/2024",
-            "description": "Theo thông tin được trang Android Authority chia sẻ trong ngày 26/6/2024, Google đã chính thức gửi thư mời sự kiện Made by Google nhằm ra mắt các sản phẩm mới của hãng và trong đó có Pixel 9 Series, thế hệ kế nhiệm của Pixel 8 Series đã ra mắt vào…",
-            "url": "https://tinhte.vn/thread/googlexacnhanpixel9seriesseramattaisukienmadebygooglengay1382024.3801356/",
-            "urlToImage": "https://storagetinhte.vncdn.vn/data/attachmentfiles/vnetwork/2024/06/8375896_91fa6205242fdc3cee3b438baeca595c.gif",
-            "publishedAt": "20240626T07:30:12Z",
-            "content": "S kin Google I/O 2024 là ni mà Google ã gii thiu nhiu công ngh, tính nng AI mi.Ngoài ra, vic Google thay i thi gian din ra s kin Made by Google sm hn so vi trc ây có th là mt phn chin lc ca hãng nhm … [+564 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "19700101T00:00:00Z",
-            "content": "[Removed]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Cool3c.com"
-            },
-            "author": "Mash Yang",
-            "title": "Google 8/14 凌晨發表 Pixel 9 系列手機 提前搶攻市場",
-            "description": "Google 將於美國西岸時間 8 月 13 日上午 10 點 (台灣時間 8 月 14 日凌晨 2 點) 發表新機，預期為 Pixel 9 系列手機，並可能同步發布 Android 15 正式版本更新及其他新款智慧裝置。 Google稍早預告將於美國西岸時間8月13日上午10點 (台灣時間為8月14日凌晨2點)發表新機，同時從預覽影片中出現的羅馬數字「IX」推測，沒意外應該就是先前有不少消息曝光的Pixel 9系列手機。 相較過往都是選在秋季時揭曉新品，今年則是特別提前至8月舉辦發表活動，Google並未透露太…",
-            "url": "https://www.cool3c.com/article/218997",
-            "urlToImage": "https://sw.cool3c.com/article/2024/31d5bc51fdcf47288ed4158522545932.jpg?fit=max&w=1400&q=80",
-            "publishedAt": "20240626T04:26:07Z",
-            "content": "Google 8 13 10 ( 8 14 2 ) Pixel 9 Android 15 \r\nGoogle81310 (8142)IXPixel 9\r\n8GoogleApple IntelligenceiPhone 169GoogleGoogle\r\nGoogleGoogleGoogleAndroidPixelGoogleAndroid 15\r\nGoogle\r\nPixel 9GooglePixel… [+29 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Daily Beast"
-            },
-            "author": "Caroline Siede",
-            "title": "‘Land of Women’: Eva Longoria’s New Show Is ‘Under the Tuscan Sun’ With Mobsters",
-            "description": "Apple TV+\r\nWhen she’s not directing movies about Flamin' Hot Cheetos, Eva Longoria’s niche is glamorous, highenergy dramedies. It’s what catapulted her to fame in Desperate Housewives, and it’s how she tried to launch a second act with the shortlived NBC si…",
-            "url": "https://www.thedailybeast.com/obsessed/evalongoriaslandofthewomenreviewdesperatehousewivesmeetsmobsters",
-            "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1688,w_3000,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1719347816/240625SiedeTheLandofWomenhero_mtratb",
-            "publishedAt": "20240626T08:31:29Z",
-            "content": "When shes not directing movies about Flamin' Hot Cheetos, Eva Longorias niche is glamorous, highenergy dramedies. Its what catapulted her to fame in Desperate Housewives,and its how she tried to lau… [+4280 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Elespanol.com"
-            },
-            "author": "César Rebolledo",
-            "title": "FREE FIRE MAX | Códigos de hoy miércoles 26 de junio de 2024  Recompensas gratis",
-            "description": "<!cache>Estos son todos los códigos gratis de Garena Free Fire MAX que podrás canjear hoy, miércoles 26 de junio de 2024. Consigue recompensas como skins, diamantes y mucho más.<!aa>El éxito para móviles Android e iOS, Garena Free Fire MAX, ha recibi…",
-            "url": "https://vandal.elespanol.com/noticia/1350772386/freefiremaxcodigosdehoymiercoles26dejuniode2024recompensasgratis/",
-            "urlToImage": "https://media.vandal.net/ivandal/12/63/1200x630/6/62024/26/202462695956_1.jpg",
-            "publishedAt": "20240626T07:05:00Z",
-            "content": "El éxito para móviles Android e iOS, Garena Free Fire MAX, ha recibido nuevos códigos diarios para hoy miércoles 26 de junio de 2024. Los jugadores pueden canjear estos códigos para recibir recompens… [+2585 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Macitynet.it"
-            },
-            "author": "Pubblicità",
-            "title": "Offerte Amazon 26 giugno fino al 40% su Apple, Akaso, ESR, Geekom",
-            "description": "In sconto action camere, karaoke, powerbank, stereo portatili, mini PC e molto altro\n su macitynet.it Offerte Amazon 26 giugno fino al 40% su Apple, Akaso, ESR, Geekom",
-            "url": "https://www.macitynet.it/offerteamazon26giugno2024/",
-            "urlToImage": "https://www.macitynet.it/wpcontent/uploads/2018/04/amazonlista3.jpg",
-            "publishedAt": "20240626T06:59:59Z",
-            "content": "Quelle che trovate elencate in questa pagina sono le offerte su Amazon valide nel momento in cui scriviamo.\r\nSono ancora valide queste offerte:\r\n<ul><li>Apple, Tineco, Samsung, SanDisk, TPLink, Aqar… [+4245 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Macitynet.it"
-            },
-            "author": "Mauro Notarianni",
-            "title": "Google, ad agosto la presentazione dei Pixel 9 e Pixel Watch 3",
-            "description": "Il 13 agosto presentazione dei nuovi Pixel, del Pixel Watch 3 e probabilmente anche Pixel 9 Pro Fold. Evento anticipato di due mesi rispetto alla tradizione.\n su macitynet.it Google, ad agosto la presentazione dei Pixel 9 e Pixel Watch 3",
-            "url": "https://www.macitynet.it/googleadagostolapresentazionedeipixel9epixelwatch3/",
-            "urlToImage": "https://www.macitynet.it/wpcontent/uploads/2024/06/teasergoogle.jpg",
-            "publishedAt": "20240626T06:29:24Z",
-            "content": "In piena estate, esattamente martedì 13 agosto alle ore 19 italiane, Google presenterà sue novità hardware nell’ambito di un evento dedicato (che sarà possibile seguire in diretta).\r\nÈ quanto emerge … [+1638 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Hwupgrade.it"
-            },
-            "author": null,
-            "title": "Fra i migliori camera phone in assoluto: HONOR Magic6 Pro in 4 pezzi su Amazon a 899!",
-            "description": "Considerato fra i migliori smartphone in assoluto, specie per il comparto fotocamere, HONOR Magic6 Pro è a tutti gli effetti un super top di gamma che non ha nulla da invidiare a quelli di Apple, Google e Samsung. Oggi su Amazon a prezzo super, ma solo 4 pezz…",
-            "url": "https://www.hwupgrade.it/news/telefonia/fraimiglioricameraphoneinassolutohonormagic6proin4pezzisuamazona899_128367.html",
-            "urlToImage": "https://www.hwupgrade.it/i/n/ama_honormag6pro_720.jpg",
-            "publishedAt": "20240626T05:11:08Z",
-            "content": "Gli appassionati lo sanno: HONOR Magic6 Pro è un vero e proprio mostro fra gli smartphone, un top di gamma a tutti gli effetti che sfida i big del settore, \r\ncon ottime ragioni. Oggi ci sono solo 4 p… [+1323 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Hwupgrade.it"
-            },
-            "author": null,
-            "title": "I migliori tablet su Amazon: Full HD, 8GB/256GB, LTE e batteria da 8580mAh a soli 109 euro, ma occhio a quello da 75!",
-            "description": "Su Amazon ci sono offerte sensazionali per chi è alla ricerca di un tablet Android. A 109 c'è un modello dalle caratteristiche imbattibili, 10\", Full HD, grande batteria e anche LTE. Ma se ne cercate di più piccoli, attenzione a quello da 75!",
-            "url": "https://www.hwupgrade.it/news/tablet/imiglioritabletsuamazonfullhd8gb256gblteebatteriada8580mahasoli109euromaocchioaquelloda75_128366.html",
-            "urlToImage": "https://www.hwupgrade.it/i/n/ama_doogee_t10pro_720.jpg",
-            "publishedAt": "20240626T05:05:05Z",
-            "content": "Su Amazon ci sono molte occasioni di risparmio: talvolta si concretizzano in offerte a tempo che vanno da un modello all'altro, anche nell'arco di pochi giorni. \r\nErano già ottimi a 129, ma i tablet… [+1716 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Sspai.com"
-            },
-            "author": "少数派编辑部",
-            "title": "派早报：新款 Beats Pill 发布、欧盟对 Apple 展开进一步 DMA 违规调查等",
-            "description": "OpenAI 开始打击不受支持地区的 API 使用，Google 开始打击 YouTube 跨区订阅等。查看全文",
-            "url": "https://sspai.com/post/89935",
-            "urlToImage": "https://cdnfile.sspai.com/2024/6/26/article/bf1d074ba2195496a3869801849744c5.png",
-            "publishedAt": "20240626T00:00:00Z",
-            "content": "Beats Pill \r\n6 25 Beats Beats Pill Beats Pill 24 USBC IP67 iOS Android \r\nBeats Pill Apple 1299 \r\n Apple DMA \r\nApple DMA 11 DMA Apple App Store App Store App 100 Apple 0.5 /ea Apple 3 Apple 380 10% A… [+297 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "19700101T00:00:00Z",
-            "content": "[Removed]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Macotakara.jp"
-            },
-            "author": "danbo",
-            "title": "Apple Store、Twelve Southの2 in 1 USBC MagSafe 充電器「Twelve South ButterFly 2‑in‑1 USB‑C MagSafe Charger」を販売開始",
-            "description": "Twelve South ButterFly 2‑in‑1 USB‑C MagSafe Charger\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<! テキスト >\n\nApple Storeが、[Twelve South](https://www.twelvesouth.com/products/butterfly2in1magsafecharger)の2in1 USBC MagSafe 充電器「[Twelve South Butt…",
-            "url": "https://www.macotakara.jp/accessories/entry47018.html",
-            "urlToImage": "https://www.macotakara.jp/archives/001/202406/7bea8600251e1355.jpg",
-            "publishedAt": "20240626T02:03:28Z",
-            "content": "Twelve South ButterFly 2in1 USBC MagSafe Charger\r\nTwelve South ButterFly 2in1 USBC MagSafe Charger\r\nAirPods Pro \r\n iPhone MagSafe Apple Watch \r\nButterFly iPhone Apple Watch \r\nTwelve South ButterFly 2… [+23 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Macotakara.jp"
-            },
-            "author": "danbo",
-            "title": "Apple、AirPods Pro (第 2 世代)用ファームウェア・アップデート 6F8を配布開始",
-            "description": "AirPods Pro (第 2 世代)用ファームウェア・アップデート 6F8\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<! テキスト >\n\nAppleが、AirPods Pro (第 2 世代)用[ファームウェア・アップデート 6F8](https://support.apple.com/jajp/HT213317)の配布を開始しています。\n\niOS 17以降を搭載したiPhone、iPadで、AirPods Proとペアリングされて接続状態…",
-            "url": "https://www.macotakara.jp/etc/support/entry47020.html",
-            "urlToImage": "https://www.macotakara.jp/archives/001/202406/bd99fff5e8d6c23d.jpg",
-            "publishedAt": "20240626T02:49:12Z",
-            "content": "AppleAirPods Pro ( 2 ) 6F8\r\niOS 17iPhoneiPadAirPods ProAirPodsWiFi\r\niOSAirPods"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Macotakara.jp"
-            },
-            "author": "danbo",
-            "title": "Apple Store、ApogeeのUSBCオーディオインターフェース「Apogee Duet 3」を販売開始",
-            "description": "Apogee Duet 3\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<! テキスト >\n\nApple Storeが、[Apogee Electronics](https://apogeedigital.com/)のUSBCオーディオインターフェース「[Apogee Duet 3](https://apple.sjv.io/c/1333996/435420/7648?u=https://www.apple.com/jp/shop/product/…",
-            "url": "https://www.macotakara.jp/hardware/entry47021.html",
-            "urlToImage": "https://www.macotakara.jp/archives/001/202406/eb4e4b452a438933.jpg",
-            "publishedAt": "20240626T07:08:40Z",
-            "content": "Apple StoreApogee ElectronicsUSBCApogee Duet 399,800\r\nGorilla GlassApogeeAD/DAUSBC\r\n1/4\"T 21/4XLR/"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Macotakara.jp"
-            },
-            "author": "danbo",
-            "title": "Apple、バグ修正したAirPodsシリーズ用ファームウェア・アップデート 6A326を配布開始",
-            "description": "AirPods Pro用ファームウェア・アップデート 6A326\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<! テキスト >\n\nAppleが、AirPods (第 2 世代)、AirPods (第 3 世代)、AirPods Pro (第 1 世代)、AirPods Max用[ファームウェア・アップデート 6A326](https://support.apple.com/jajp/HT213317)の配布を開始しています。\n\niOS 17以降を…",
-            "url": "https://www.macotakara.jp/etc/support/entry47014.html",
-            "urlToImage": "https://www.macotakara.jp/archives/001/202406/360490bf05de6144.jpg",
-            "publishedAt": "20240626T00:13:09Z",
-            "content": "AppleAirPods ( 2 )AirPods ( 3 )AirPods Pro ( 1 )AirPods Max 6A326\r\niOS 17iPhoneiPadAirPods AirPodsWiFi\r\niOSAirPods"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Macotakara.jp"
-            },
-            "author": "danbo",
-            "title": "Apple Store、KensingtonのMacBook Air用プライバシースクリーン「Kensington UltraThin Magnetic Privacy Screen for MacBook Air」を販売開始",
-            "description": "Kensington UltraThin Magnetic Privacy Screen for MacBook Air\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<! テキスト >\n\nApple Storeが、[Kensington](https://www.kensington.com/jajp/)のMacBook Air（13インチ、M2、2022）、MacBook Air（13インチ、M3、2024）用プライバシースクリーン「[Kensi…",
-            "url": "https://www.macotakara.jp/accessories/entry47015.html",
-            "urlToImage": "https://www.macotakara.jp/archives/001/202406/6ec176c4e3335f61.jpg",
-            "publishedAt": "20240626T01:03:00Z",
-            "content": "Kensington UltraThin Magnetic Privacy Screen for MacBook Air\r\nApple StoreKensingtonMacBook Air13M22022MacBook Air13M32024Kensington UltraThin Magnetic Privacy Screen for 13MacBook Air8,400MacBook Air… [+156 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Macotakara.jp"
-            },
-            "author": "danbo",
-            "title": "Apple Store、NimbleのUSBC充電ケーブルセット「Nimble PowerKnit Cable Travel Kit（3本入り）」を販売開始",
-            "description": "Nimble PowerKnit Cable Travel Kit（3本入り）\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<! テキスト >\n\nApple Storeが、[Nimble](https://www.gonimble.com/)のUSBC充電ケーブルの3本セット「[Nimble PowerKnit Cable Travel Kit（3本入り）](https://apple.sjv.io/c/1333996/435420/7648?u=…",
-            "url": "https://www.macotakara.jp/accessories/entry47017.html",
-            "urlToImage": "https://www.macotakara.jp/archives/001/202406/718bf0e86e8b8742.jpg",
-            "publishedAt": "20240626T01:14:41Z",
-            "content": "Nimble PowerKnit Cable Travel Kit3\r\nNimble PowerKnit Cable Travel Kit3"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Macotakara.jp"
-            },
-            "author": "danbo",
-            "title": "Apple Store、Native Unionの240W出力対応2in1充電編組ケーブル「Native Union Belt Cable Duo Pro 240W（USBC  USBC and Lightning）」を販売開始",
-            "description": "Native Union Belt Cable Duo Pro 240W（USBC  USBC and Lightning）\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<! テキスト >\n\nApple Storeが、[Native Union](https://www.nativeunion.com/)の240W出力対応2in1充電ケーブル「[Native Union Belt Cable Duo Pro 240W（USBC  USB…",
-            "url": "https://www.macotakara.jp/accessories/entry47016.html",
-            "urlToImage": "https://www.macotakara.jp/archives/001/202406/b8465c06096c99cf.jpg",
-            "publishedAt": "20240626T01:12:55Z",
-            "content": "Native Union Belt Cable Duo Pro 240WUSBC  USBC and Lightning\r\nNative Union Belt Cable Duo Pro 240WUSBC  USBC and Lightning\r\nUSB PD 3.1USBC to USBC240W\r\n100%PET100%TPU\r\n75%\r\nNative Union Belt … [+44 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Macotakara.jp"
-            },
-            "author": "danbo",
-            "title": "Tim Cook CEOが愛用するナイキ製メガネ「NIKE 8154 410 Satin Navy」を試す",
-            "description": "NIKE 8154 410 Satin Navy\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<! テキスト >\n\nTim Cook CEOが愛用するナイキ製メガネ「[NIKE 8154 410 Satin Navy](https://www.nikevision.com/optical/nike8154)」を買ってみました。\n\n2024年5月7日に公開されたiPad Pro (M4)、iPad Pro (M4)[発表イベント](https://w…",
-            "url": "https://www.macotakara.jp/diary/entry47022.html",
-            "urlToImage": "https://www.macotakara.jp/archives/001/202406/959d89b6b4d6eca8.jpg",
-            "publishedAt": "20240626T07:41:12Z",
-            "content": "Tim Cook CEONIKE 8154 410 Satin Navy\r\n202457iPad Pro (M4)iPad Pro (M4)WWDC242024 1 '86NIKE 8154 410 Satin Navy\r\nTim Cook CEOYouTuber"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Tweakers.net"
-            },
-            "author": "Arnoud Wokke",
-            "title": "Meta test functie op Questheadsets om vensters overal in de ruimte te plaatsen",
-            "description": "Meta test een functie op zijn Quest 3headset om vensters overal in de ruimte te kunnen plaatsen, zoals op de Apple Vision Pro. De functie zit in een bètaversie van de software. Gebruikers kunnen maximaal drie vensters vrij verplaatsen.",
-            "url": "https://tweakers.net/nieuws/223666/metatestfunctieopquestheadsetsomvenstersoveralinderuimteteplaatsen.html",
-            "urlToImage": "https://tweakers.net/i/jPfXAOr2BmliedVh2I9Gb_gVE=/134x134/filters:strip_icc():strip_exif()/i/2005662448.jpeg?f=meta",
-            "publishedAt": "20240626T06:13:00Z",
-            "content": "Meta test een functie op zijn Quest 3headset om vensters overal in de ruimte te kunnen plaatsen, zoals op de Apple Vision Pro. De functie zit in een bètaversie van de software. Gebruikers kunnen max… [+667 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Tweakers.net"
-            },
-            "author": "Arnoud Wokke",
-            "title": "Nieuwe iOSbèta voor iPhones heeft RCSondersteuning",
-            "description": "De nieuwe bèta voor iOS heeft ondersteuning voor RCS. In de eerste bèta was dat nog niet te vinden. Als providers de standaard ondersteunen, kunnen iPhonegebruikers voor het eerst foto's, video's en audioberichten uitwisselen met nietiPhonegebruikers vanui…",
-            "url": "https://tweakers.net/nieuws/223668/nieuweiosbetavooriphonesheeftrcsondersteuning.html",
-            "urlToImage": "https://tweakers.net/i/YDzUBpcCtnUbOEqdZ1JOy2GyEDM=/134x134/filters:strip_exif()/i/2006768614.png?f=meta",
-            "publishedAt": "20240626T06:55:00Z",
-            "content": "De nieuwe bèta voor iOS heeft ondersteuning voor RCS. In de eerste bèta was dat nog niet te vinden. Als providers de standaard ondersteunen, kunnen iPhonegebruikers voor het eerst foto's, video's en… [+846 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Iphones.ru"
-            },
-            "author": "Илья Сидоров",
-            "title": "Сенатор Шейкин предлагает запретить продажу в России iPhone, если Apple не обеспечит установку приложений через RuStore",
-            "description": "Сенатор Совета Федерации Артем Шейкин заявил о необходимости запретить продажу iPhone в России без RuStore. Считаю, что зарубежная компания должна будет следовать требованиям закона, в противном случае необходимо будет ограничивать продажу устройств компании …",
-            "url": "https://www.iphones.ru/iNotes/senatorsheykinpredlagaetzapretitprodazhuvrossiiiphoneesliappleneobespechitustanovkuprilozheniycherezrustore",
-            "urlToImage": "https://www.iphones.ru/wpcontent/plugins/wonderm00nssimplefacebookopengraphtags/fbimg.php?img=https%3A%2F%2Fwww.iphones.ru%2Fwpcontent%2Fuploads%2F2024%2F06%2Fartem_sheikin.jpg",
-            "publishedAt": "20240626T07:19:41Z",
-            "content": "iPhone RuStore.\r\n, , Apple.\r\n, Apple , , RuStore.\r\n[]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Expansion.com"
-            },
-            "author": "expansion.com",
-            "title": "La Primera de Expansión sobre Rovi, BBVA, Sabadell, IRPF e IVA",
-            "description": "Además, veremos que la opa de BBVA por Sabadell supondría para la entidad duplicar su exposición al ladrillo tóxico y hablaremos de los nuevos incentivos fiscales del Gobierno.",
-            "url": "https://www.expansion.com/podcasts/laprimeradeexpansion/2024/06/26/667ba47d468aeb377a8b45d5.html",
-            "urlToImage": "https://phantomexpansion.unidadeditorial.es/16480be6952345345f2b153c7260f0b9/f/webp/assets/multimedia/imagenes/2024/06/26/17193783294756.jpg",
-            "publishedAt": "20240626T05:37:38Z",
-            "content": "Además, veremos que la opa de BBVA por Sabadell supondría para la entidad duplicar su exposición al ladrillo tóxico y hablaremos de los nuevos incentivos fiscales del Gobierno. \r\nEn cuanto a la agend… [+517 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Thenewslens.com"
-            },
-            "author": "張瑞邦 Tucker Chang",
-            "title": "美最高法院將審「性別肯定照護」禁令案，如何影響未成年跨性別者權益？",
-            "description": "《美聯社》認為，共和黨近年來以保護女性權益為由，逐步在法律及政策上限制跨性別者權利，無論是針對醫療保健、學校體育賽事參與以及洗手間的使用，都針對跨性別人士祭出一定程度的限制；相反地，拜登政府及民主黨則在法規面擴大對該群體的權益保障，目前至少有14個由民主黨掌控的州政府，通過保障性別肯定照護的法案。",
-            "url": "https://www.thenewslens.com/article/204439",
-            "urlToImage": "https://image1.thenewslens.com/2024/6/0yxr7sm1f71oo2atk72r5pxs6b0kiu.jpg?fm=jpg&format=crop&h=630&q=70&w=1200",
-            "publishedAt": "20240626T02:43:51Z",
-            "content": "APP 50 60 \r\nLG MyView 27 31.5 43 4K UHD IPS webos 23 ThinQ App LG \r\nLG MyView 31.5 \r\nPhoto CreditLGLG MyView \r\nLG MyView HDMI 3 USBC 65W \r\nPhoto CreditLGLG MyView HDMI 3 USBC APP 65W \r\nwebOS 23 \r\nL… [+564 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Giga"
-            },
-            "author": "Peter Hryciuk",
-            "title": "Nächstes SamsungEvent offiziell angekündigt: Das erwartet euch am 10. Juli",
-            "description": "Samsung wird schon in wenigen Tagen das nächste GalaxyEvent veranstalten. Das Datum wurde nun offiziell angekündigt und gleichzeitig ist auch die Hardware zum Großteil durchgesickert, die zu dem Zeitpunkt vorgestellt werden soll. Besonders ein Produkt ist fü…",
-            "url": "https://www.giga.de/news/naechstessamsungeventoffiziellangekuendigtdaserwarteteucham10.juli/",
-            "urlToImage": "https://crops.giga.de/c5/e1/db/9c111300bfb620d4c74b9df217_YyAyODIweDE0NzMrOTArMTA3AnJlIDEyMDAgNjI3A2MxOTEwZjI0NGQx.jpg",
-            "publishedAt": "20240626T06:20:21Z",
-            "content": "Samsung wird schon in wenigen Tagen das nächste GalaxyEvent veranstalten. Das Datum wurde nun offiziell angekündigt und gleichzeitig ist auch die Hardware zum Großteil durchgesickert, die zu dem Zei… [+2309 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Zive.cz"
-            },
-            "author": "Martin Chroust",
-            "title": "Apple chce automatizovat polovinu výroby telefonů. Velké plány měl už s iPhonem 16, ale robotům se moc nedaří",
-            "description": "Apple chce do pár let vyrábět 50 % iPhonů pomocí robotů • Automatizaci částečně využil už v řadě iPhone 15 • U řady iPhone 16 ji chtěl navýšit, robotům se ale moc nedařilo...",
-            "url": "https://mobilmania.zive.cz/clanky/applechceautomatizovatpolovinuvyrobytelefonuvelkeplanymeluzsiphonem16alerobotumsemocnedari/sc3a1360390/default.aspx",
-            "urlToImage": "https://mobilmania.zive.cz/getthumbnail.aspx?q=100&height=20000&width=20000&id_file=85248855",
-            "publishedAt": "20240626T05:20:00Z",
-            "content": "Apple zvauje nad tím, e by v nadcházejících letech zvýil podíl automatizace ve výrobním procesu iPhon. V horizontu nkolika pítích let chce Apple vyrábt polovinu iPhon prostednictvím automatizovaných … [+2065 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Metafilter.com"
-            },
-            "author": "JHarris",
-            "title": "\"Wow, pinecone!\" It's an apple.",
-            "description": "Tales In Mushroom Village is a Chinese computeranimated TV series from 2009. It's considered partly lost media. 2009 was 15 years ago, but that was the year Pixar's Up came out, and Toy Story was 14 years old by then, so the animation can't be that bad... ri…",
-            "url": "https://www.metafilter.com/204358/WowpineconeItsanapple",
-            "urlToImage": "https://cdn.mefi.us/images/mefi/appletouchicon.png",
-            "publishedAt": "20240626T07:14:30Z",
-            "content": "MetaFilter is a weblog that anyone can contribute a link or a comment to. A typical weblog is one person posting their thoughts on the unique things they find on the web. This website exists to break… [+120 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "iphoneticker.de › iPhoneNews seit 2007"
-            },
-            "author": "chris",
-            "title": "Update korrigiert Sicherheitslücke bei AirPods und BeatsOhrhörern",
-            "description": "Apple hat neue FirmwareVersionen für fast alle AirPodsVersionen und zudem verschiedene BeatsOhrhörer veröffentlicht. Die Updates korrigieren einen Fehler, auf dessen Basis ein Angreifer drahtlosen Zugriff auf die Ohrhörer erlangen könnte. Diese Beschreibun…",
-            "url": "https://www.iphoneticker.de/updatekorrigiertsicherheitslueckebeiairpodsundbeatsohrhoerern237199/",
-            "urlToImage": "https://images.iphoneticker.de/wpcontent/uploads/2022/09/airpodsprofeature.jpg",
-            "publishedAt": "20240626T04:56:07Z",
-            "content": "Apple hat neue FirmwareVersionen für fast alle AirPodsVersionen und zudem verschiedene BeatsOhrhörer veröffentlicht. Die Updates korrigieren einen Fehler, auf dessen Basis ein Angreifer drahtlosen… [+1987 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Bringatrailer.com"
-            },
-            "author": "bringatrailer",
-            "title": "2022 Maserati MC20",
-            "description": "This 2022 Maserati MC20 is finished in matte Bianco Audace over Blu and Nero Alcantara and is powered by a twinturbocharged 3.0liter V6 paired with an eightspeed dualclutch automatic transaxle. Equipment includes the Interior and Exterior Carbon Fiber pac…",
-            "url": "https://bringatrailer.com/listing/2022maseratimc20442/",
-            "urlToImage": "https://bringatrailer.com/wpcontent/uploads/2024/01/2022_maserati_mc20_2022_maserati_mc20_d85e749688944ab888ba0314494f3d2eGsQwbO6966069661scaledLI86rJ.jpg",
-            "publishedAt": "20240626T00:30:06Z",
-            "content": "This 2022 Maserati MC20 is finished in matte Bianco Audace over Blu and Nero Alcantara and is powered by a twinturbocharged 3.0liter V6 paired with an eightspeed dualclutch automatic transaxle. E… [+3378 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Ipadizate.com"
-            },
-            "author": "Sergio J. Ortiz",
-            "title": "Apple lanza una actualización de firmware para AirPods, AirPods Pro y AirPods Max, ¿qué novedades hay?",
-            "description": "Tras la mastodóntica presentación de todas las novedades de software que rodean a los sistemas operativos de iPhone, de iPad, de Mac, de Apple Vision Pro y de otros dispositivos durante la WWDC de 2024 ahora Apple se encuentra inmersa en el desarrollo de múlt…",
-            "url": "https://ipadizate.com/airpods/applelanzaunaactualizaciondefirmwareparaairpodsairpodsproyairpodsmaxquenovedadeshay",
-            "urlToImage": "https://ipadizate.com/hero/2024/06/airpodsproapplewatchcharger.1719382234.283.jpg?width=1200",
-            "publishedAt": "20240626T07:01:56Z",
-            "content": "Estuche de carga MagSafe de los AirPods Pro de Apple\r\nTras la mastodóntica presentación de todas las novedades de software que rodean a los sistemas operativos de iPhone, de iPad, de Mac, de Apple Vi… [+4233 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Ipadizate.com"
-            },
-            "author": "Sergio J. Ortiz",
-            "title": "A la espera de Apple Intelligence, la app de ChatGPT para Mac ya está disponible para todos",
-            "description": "Apple Intelligence, el sistema de inteligencia artificial de iOS 18, iPadOS 18 y macOS Sequoia, fue presentado durante la WWDC de 2024 con grandes novedades como la generación de imágenes, los resúmenes de texto o las mejoras en Siri. Sin embargo, todavía fal…",
-            "url": "https://ipadizate.com/mac/alaesperadeappleintelligencelaappdechatgptparamacyaestadisponibleparatodos",
-            "urlToImage": "https://ipadizate.com/hero/2024/06/chatgpt.1719388089.5042.jpg?width=1200",
-            "publishedAt": "20240626T08:01:28Z",
-            "content": "ChatGPT ya está disponible gratis en Mac\r\nApple Intelligence, el sistema de inteligencia artificial de iOS 18, iPadOS 18 y macOS Sequoia, fue presentado durante la WWDC de 2024 con grandes novedades … [+3656 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Ilsoftware.it"
-            },
-            "author": "Marco Ponteprino",
-            "title": "ChatGPT per macOS: l’app è disponibile per tutti gli utenti Mac",
-            "description": "ChatGPT per macOS, l'app disponibile per tutti i possessori di Mac: Apple e OpenAI si avvicinano ulteriormente.",
-            "url": "https://www.ilsoftware.it/chatgptpermacoslappedisponibilepertuttigliutentimac/",
-            "urlToImage": "https://cdn.ilsoftware.it/TrCy6ri0rrpleqRVPtodpty5fuo=/2160x1350/filters:format(webp)/https://www.ilsoftware.it/app/uploads/2023/09/chatgptscaricarechatconversionemarkdown.jpg",
-            "publishedAt": "20240626T07:00:52Z",
-            "content": "Da oggi è possibile accedere a ChatGPT su Mac attraverso un’app specifica realizzata da OpenAI.\r\nLa compagnia, giusto qualche ora fa, ha annunciato il lancio dell’app per macOS. Il lancio di quest’ul… [+1639 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Just Jared"
-            },
-            "author": "Just Jared",
-            "title": "Joel Kim Booster Reveals How He Met His Boyfriend, Talks Introducing Him to His Conservative Mom",
-            "description": "Joel Kim Booster is opening up about his relationship with boyfriend JohnMichael Sudsina. The 36yearold Loot actor chatted with Jesse Tyler Ferguson on the latest episode of his Dinner’s On Me podcast. Joel talked about growing up in a conservative Christi…",
-            "url": "https://www.justjared.com/2024/06/25/joelkimboosterrevealshowhemethisboyfriendtalksintroducinghimtohisconservativemom/",
-            "urlToImage": "https://cdn01.justjared.com/wpcontent/uploads/headlines/2024/06/boostervf.jpg",
-            "publishedAt": "20240626T00:40:15Z",
-            "content": "Joel Kim Booster is opening up about his relationship with boyfriend JohnMichael Sudsina.\r\nThe 36yearold Loot actor chatted with Jesse Tyler Ferguson on the latest episode of his Dinner’s On Me po… [+2997 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Natalie.mu"
-            },
-            "author": "音楽ナタリー",
-            "title": "NEO JAPONISM主催サーキットにfishbowl、透色ドロップ、iLiFE!候補生ら20組追加",
-            "description": "8月15日に東京・渋谷のライブハウスで開催されるNEO JAPONISMの主催サーキットフェス「NEO KASSEN2024」の出演者第7弾が発表された。",
-            "url": "https://natalie.mu/music/news/579419",
-            "urlToImage": "https://ogre.natalie.mu/media/news/music/2024/0626/NEOKASSEN2024_7_2.jpg?impolicy=twitter_card_face_crop",
-            "publishedAt": "20240626T08:00:00Z",
-            "content": "2024815 Spotify OEAST / Spotify OWEST / Spotify Onest / Spotify OCrest / duo MUSIC EXCHANGE / WOMB / club asia / SHIBUYA RING / SHIBUYA DESEO\r\n1\r\nNEO JAPONISM / \r\niLiFE! / / INUWASI / Jams Collec… [+881 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "19700101T00:00:00Z",
-            "content": "[Removed]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "STERN.de"
-            },
-            "author": "STERN.de",
-            "title": "Mobilfunk: 5GNetz: Westeuropa holt im internationalen Vergleich auf",
-            "description": "Bei der Nutzung des 5GMobilfunks liegen die USA und Nordostasien weit vorn. Die Aufholjagd der Westeuropäer könnte an Tempo zulegen, wenn das Nutzererlebnis in einem Frequenzband besser wäre.",
-            "url": "https://www.stern.de/digital/mobilfunk5gnetzwesteuropaholtiminternationalenvergleichauf34829668.html",
-            "urlToImage": "https://image.stern.de/34829670/t/O7/v1/w1440/r1.7778//26urnnewsmldpacom2009010124062699535204v3w800h600l640t404r1920b1215jpegd83b1127c6a662a1.jpg",
-            "publishedAt": "20240626T05:21:08Z",
-            "content": "Bei der Nutzung des 5GMobilfunks liegen die USA und Nordostasien weit vorn. Die Aufholjagd der Westeuropäer könnte an Tempo zulegen, wenn das Nutzererlebnis in einem Frequenzband besser wäre.\r\nJeder… [+2455 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "19700101T00:00:00Z",
-            "content": "[Removed]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "19700101T00:00:00Z",
-            "content": "[Removed]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "19700101T00:00:00Z",
-            "content": "[Removed]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "19700101T00:00:00Z",
-            "content": "[Removed]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "19700101T00:00:00Z",
-            "content": "[Removed]"
-        }
-    ]
-
-}
-Get the current top headlines for a country or category
-
-News API is great as a data source for news tickers and other applications where you want to show your users live headlines. We track headlines in 7 categories across over 50 countries, and at over a hundred top publications and blogs, in near real time.
-
-Let's make a request to get live top headlines in the US right now. We'll use the /topheadlines endpoint for this.
-
-This returns a JSON object with the results in an array we can iterate over.
-
-For more information about the /topheadlines endpoint, including valid parameters for focusing on specific countries and categories, see the Top Headlines endpoint reference.
-Definition
-
-GET https://newsapi.org/v2/topheadlines?country=us&apiKey=API_KEY
-
-Example request
-
-curl https://newsapi.org/v2/topheadlines G \
-    d country=us \
-    d apiKey=API_KEY
-
-Example response
-{
-
-    "status": "ok",
-    "totalResults": 35,
-    
-    "articles": [
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Hollywood Reporter"
-            },
-            "author": "Katie Kilkenny",
-            "title": "IATSE Reaches Tentative Agreement on Basic Agreement With Studios and Streamers  Hollywood Reporter",
-            "description": "The provisional deal, which is still subject to a ratification vote, raises wages by 7 percent in the first year, includes language covering AI and applies additional penalties for long workdays.",
-            "url": "http://www.hollywoodreporter.com/business/businessnews/iatsetentativeagreementstudiosstreamers1235932608/",
-            "urlToImage": "https://www.hollywoodreporter.com/wpcontent/uploads/2024/02/2024IATSE_teamsters04_E.jpg?w=1024",
-            "publishedAt": "20240626T05:15:00Z",
-            "content": "On Tuesday night the crew union IATSE reached a tentative agreement on a new threeyear contract covering 13 West Coast Locals with Hollywood’s top studios and streamers.\r\nLeaders of the 13 West Coas… [+3646 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Colorado Public Radio"
-            },
-            "author": "Andrew Kenney",
-            "title": "Rep. Lauren Boebert wins GOP primary for Colorado's Fourth District  Colorado Public Radio",
-            "description": "Early returns show the districthopping congresswoman well ahead of the other five candidates in the race.",
-            "url": "https://www.cpr.org/2024/06/25/4thcongressionaldistrictrace/",
-            "urlToImage": "https://wpcpr.s3.amazonaws.com/uploads/2024/06/240625boebertgopcd4primaryelectionwatchpartyhv024.jpg",
-            "publishedAt": "20240626T04:32:36Z",
-            "content": "Updated at 10:28 p.m. on Tuesday, June 25, 2024\r\nThe Associated Press has called the GOP primary in Colorados 4th Congressional District for Rep. Lauren Boebert. As of 8:45 p.m. she had 43 percent of… [+8907 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "cnn",
-                "name": "CNN"
-            },
-            "author": "Ivana Kottasová",
-            "title": "International Criminal Court issues war crimes arrest warrants for Russia’s Shoigu and Gerasimov  CNN",
-            "description": "The International Criminal Court (ICC) issued an arrest warrant for former Russian Defense Minister Sergei Shoigu and the Chief of the General Staff Valery Gerasimov for alleged international crimes, war crimes and crimes against humanity.",
-            "url": "https://www.cnn.com/2024/06/25/europe/iccarrestwarrantsshoigugerasimovintl/index.html",
-            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/20240625fjfjfj.jpg?c=16x9&q=w_800,c_fill",
-            "publishedAt": "20240626T04:27:00Z",
-            "content": "The International Criminal Court (ICC) has issued an arrest warrant for former Russian Defense Minister Sergei Shoigu and the Chief of the General Staff Valery Gerasimov for alleged international cri… [+6172 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "CBS Sports"
-            },
-            "author": "",
-            "title": "Mikal Bridges trade grades: Knicks make highrisk, highreward move as Nets' draftpick haul expedites rebuild  CBS Sports",
-            "description": "It's a winwin trade for the Knicks and Nets, not so much for the Rockets",
-            "url": "https://www.cbssports.com/nba/news/mikalbridgestradegradesknicksmakehighriskhighrewardmoveasnetsdraftpickhaulexpeditesrebuild/",
-            "urlToImage": "https://sportshub.cbsistatic.com/i/r/2024/06/26/9d4d46af46034a38865efa7d9980afe6/thumbnail/1200x675/556845b96584f33fd6e8ac881d6ddc93/bridgesgetty.png",
-            "publishedAt": "20240626T04:20:41Z",
-            "content": "The New York Knicks and Brooklyn Nets went more than four decades without making a trade, but their first one since 1983 was worth the wait. Mikal Bridges will be joining former Villanova teammates J… [+11230 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "Arizona Sports"
-            },
-            "author": ", Arizona Sports",
-            "title": "Houston Rockets interested in trading for Suns' Kevin Durant, per report  Arizona Sports",
-            "description": "The Houston Rockets are interested in trading for Phoenix Suns forward Kevin Durant, according to ESPN's Adrian Wojnarowski.",
-            "url": "https://arizonasports.com/story/3549643/houstonrocketsinterestedintradingforsunskevindurantperreport/",
-            "urlToImage": "http://arizonasports.com/wpcontent/uploads/2024/06/GettyImages2148428709e1719369360323.jpg",
-            "publishedAt": "20240626T02:43:00Z",
-            "content": "The Houston Rockets are interested in trading for Phoenix Suns forward Kevin Durant, according to ESPN’s Adrian Wojnarowski.\r\nThis comes after Houston acquired some of the Suns’ future draft assets f… [+1160 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "BBC News"
-            },
-            "author": null,
-            "title": "Jamaal Bowman loses New York primary to proIsrael George Latimer  BBC.com",
-            "description": "The war in Gaza loomed large over the hotly anticipated election in New York's 16th district.",
-            "url": "https://www.bbc.com/news/articles/cz99x0w65dyo",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2cd2/live/aa76c620334711efa8d00397e0dc51ba.jpg",
-            "publishedAt": "20240626T02:38:17Z",
-            "content": "By Bernd Debusmann Jr, BBC News, Washington \r\nNew York congressman Jamaal Bowman has lost a primary challenge, according to projections, in a closely watched race that exposed a bitter rift within th… [+2748 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "thehill",
-                "name": "The Hill"
-            },
-            "author": "Sarah Fortinsky",
-            "title": "CDC warns of increased risk of dengue virus in US  The Hill",
-            "description": "The Centers for Disease Control and Prevention (CDC) issued a health advisory on Tuesday warning the public of a heightened risk of dengue virus (DENV) infections in the U.S. this year as cases continue to rise around the globe. Countries in the Americas repo…",
-            "url": "https://thehill.com/policy/healthcare/4740310cdcincreasedriskdenguevirusus/",
-            "urlToImage": "https://thehill.com/wpcontent/uploads/sites/2/2022/08/CDC_041920_APHarris.jpg?w=1280",
-            "publishedAt": "20240626T02:37:00Z",
-            "content": "Skip to content\r\nThe Centers for Disease Control and Prevention (CDC) issued a health advisory on Tuesday warning the public of a heightened risk of dengue virus (DENV) infections in the U.S. this ye… [+2606 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "KTVZ"
-            },
-            "author": "https://www.facebook.com/BarneyLertenKTVZ/",
-            "title": "Darlene 3 Fire races across 250 acres SE of La Pine; Level 3 'GO NOW evacuation area expands; power shut off to 2,000  KTVZ",
-            "description": "A wildfire broke out Tuesday afternoon near Darlene Way on the southeast outskirts of La Pine and put up huge, billowing smoke plumes as it raced across 1,700 acres by nightfall, prompting a Conflagration Act callout of hundreds of firefighters from across t…",
-            "url": "https://ktvz.com/news/firealert/2024/06/25/darlene3fireblowsupto1700acresseoflapinetriggersevacuationscampgroundandareaclosurespowershutoffs/",
-            "urlToImage": "https://ktvz.bcdn.net/2024/06/Darlene3FireDCSO6251.jpg",
-            "publishedAt": "20240626T02:26:15Z",
-            "content": "(Update: Fire estimate jumps to 1,700 acres, other updates)\r\nLa PINE, Ore. (KTVZ) A wildfire broke out Tuesday afternoon near Darlene Way on the southeast outskirts of La Pine and put up huge, billow… [+5388 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "cnn",
-                "name": "CNN"
-            },
-            "author": "Lauren SaidMoorhouse, Thomas Manglona",
-            "title": "Julian Assange ends stalemate with US, exchanging guilty plea for his freedom  CNN",
-            "description": "WikiLeaks founder Julian Assange walked free for the first time in 12 years after a US judge signed off on his unexpected plea deal on Wednesday morning.",
-            "url": "https://www.cnn.com/2024/06/25/world/julianassangepleadealhearingintl/index.html",
-            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages2159251804.jpg?c=16x9&q=w_800,c_fill",
-            "publishedAt": "20240626T02:09:00Z",
-            "content": "Saipan, Northern Mariana IslandsCNN\r\n  — \r\nWikiLeaks founder Julian Assange walked free for the first time in 12 years after a US judge signed off on his unexpected plea deal on Wednesday morning.\r\nA… [+8395 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "BBC News"
-            },
-            "author": null,
-            "title": "Boeing Starliner: Why are the astronauts still in space?  BBC.com",
-            "description": "What has delayed their return and what does it mean for the mission?",
-            "url": "https://www.bbc.com/news/articles/c6pp29gdwe6o",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/325e/live/13ab7590330d11efbdc541d7421c2adf.jpg",
-            "publishedAt": "20240626T01:09:17Z",
-            "content": "Astronauts Suni Williams (left) and Butch Wilmore were supposed to have stayed on the space station for eight days\r\nThe two astronauts testing out Boeings new Starliner spacecraft were supposed to be… [+5198 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "usatoday",
-                "name": "USA Today"
-            },
-            "author": "Ahjané Forbes, Sara Chernikoff",
-            "title": "Mega Millions numbers for 6/25/24 drawing: $97 million jackpot  USA TODAY",
-            "description": "Mega Millions players, are you feeling lucky? The winning numbers are in for the June 25 drawing.",
-            "url": "https://www.usatoday.com/story/money/lottery/2024/06/25/megamillionsnumbers/74199453007/",
-            "urlToImage": "https://www.usatoday.com/gcdn/authoring/authoringimages/2024/03/22/USAT/73072171007usatsi22816449.jpg?crop=4031,2268,x0,y0&width=3200&height=1801&format=pjpg&auto=webp",
-            "publishedAt": "20240626T01:02:05Z",
-            "content": "The Mega Millions jackpot for Tuesday's drawing has risen to $97 million after no one won the big prize on Friday.\r\nThe winning numbers were drawn just after 11 p.m. ET on Tuesday, and we have the re… [+2945 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "CNBC"
-            },
-            "author": "Abid Ali",
-            "title": "CNBC Daily Open: Nvidia rallies after selloff, lifts S&P 500 and Nasdaq  CNBC",
-            "description": "The S&P 500 and the Nasdaq Composite snapped a threeday slide as Nvidia rebounded from a selloff.",
-            "url": "https://www.cnbc.com/2024/06/26/cnbcdailyopennvidiaralliesafterselloffliftssp500andnasdaq.html",
-            "urlToImage": "https://image.cnbcfm.com/api/v1/image/1073537411704295294937gettyimages1897459562AFP_349F388.jpeg?v=1719362960&w=1920&h=1080",
-            "publishedAt": "20240626T00:54:00Z",
-            "content": "This report is from today's CNBC Daily Open, our international markets newsletter. CNBC Daily Open brings investors up to speed on everything they need to know, no matter where they are. Like what yo… [+5305 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "associatedpress",
-                "name": "Associated Press"
-            },
-            "author": "MELANIE LIDMAN",
-            "title": "Israel's military must enlist the ultraOrthodox. What will that mean for Netanyahu and the war?  The Associated Press",
-            "description": "Israel's Supreme Court unanimously ordered the government to begin drafted ultraOrthodox Jewish men into the army. The landmark ruling on Tuesday seeks to end a system that has allowed them to avoid enlistment into compulsory military service. UltraOrthodox…",
-            "url": "https://apnews.com/article/israelnetanyahuultraorthodoxmilitaryenlistmentcourtsexplainer84514233f43e4d385b7dba1f22a894bf",
-            "urlToImage": "https://dims.apnews.com/dims4/default/cda6815/2147483647/strip/true/crop/8640x4860+0+450/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F8b%2Fa4%2Fb401de25203468da66fcc7a4e488%2F60d415b0a1d8438b8565bc2dd54dc332",
-            "publishedAt": "20240626T00:43:00Z",
-            "content": "JERUSALEM (AP) Israels Supreme Court unanimously ordered the government to begin drafting ultraOrthodox Jewish men into the army a landmark ruling seeking to end a system that has allowed them to av… [+5797 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "cbsnews",
-                "name": "CBS News"
-            },
-            "author": "Carter Evans",
-            "title": "How property owners and lawmakers are turning the tables on squatters  CBS News",
-            "description": "New antisquatting laws in several states are giving more power back to homeowners, but the issue persists.",
-            "url": "https://www.cbsnews.com/news/californiapropertyownerssquatterslaws/",
-            "urlToImage": "https://assets1.cbsnewsstatic.com/hub/i/r/2024/06/24/f607c063a28a4dc0934be7f64422c4e2/thumbnail/1200x630/4739c938a9338e354de02b192d4cb590/cbsnfusionhowpropertyownersaredealingwithsquattersthumbnail.jpg?v=d44ea471ad55b1f821a0763c85064960",
-            "publishedAt": "20240626T00:42:20Z",
-            "content": "When Flash Shelton found squatters in his mother's home in Northern California five years ago, he figured out how to work around a system that often appears to protect the squatter and not the proper… [+2733 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "reuters",
-                "name": "Reuters"
-            },
-            "author": "Luc Cohen",
-            "title": "Judge partially lifts Trump hush money gag order  Reuters",
-            "description": "A New York judge partially lifted a gag order on Donald Trump on Tuesday following the Republican presidential candidate's conviction on criminal charges stemming from an effort to influence the 2016 election by buying a porn star's silence.",
-            "url": "https://www.reuters.com/legal/judgepartiallyliftstrumphushmoneygagorder20240625/",
-            "urlToImage": "https://www.reuters.com/resizer/v2/3FNYZZ33CFJPVAFULRTKVA63FE.jpg?auth=d5d0ba79186a706d12e8b963241748be057f79642a6697711ae93cab51b324af&height=1005&width=1920&quality=80&smart=true",
-            "publishedAt": "20240626T00:39:00Z",
-            "content": null
-        },
-        
-        {
-            
-            "source": {
-                "id": "espn",
-                "name": "ESPN"
-            },
-            "author": "Michael DiRocco",
-            "title": "Jacksonville approves $1.4B renovation of Jaguars stadium  ESPN",
-            "description": "The Jacksonville City Council voted 141 Tuesday night to approve an agreement between the Jacksonville Jaguars and the city on a $1.4 billion renovation of EverBank Stadium.",
-            "url": "https://www.espn.com/nfl/story/_/id/40432558/jacksonvillecitycouncilapprovesrenovationjaguarseverbankstadium",
-            "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0406%2Fr1315133_1296x729_16%2D9.jpg",
-            "publishedAt": "20240626T00:31:00Z",
-            "content": "JACKSONVILLE, Fla.  The Jacksonville City Council voted 141 Tuesday night to approve an agreement between the Jaguars and the city on a $1.4 billion renovation of EverBank Stadium.\r\nThat brings th… [+3987 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "googlenews",
-                "name": "Google News"
-            },
-            "author": "CNN",
-            "title": "Gaza population at risk of famine as it continues to face emergency levels of hunger, report finds  CNN",
-            "description": null,
-            "url": "https://news.google.com/rss/articles/CBMiVmh0dHBzOi8vd3d3LmNubi5jb20vMjAyNC8wNi8yNS9taWRkbGVlYXN0L2dhemEtZmFtaW5lLWlwYy1yZXBvcnQtaW50bC1sYXRhbS9pbmRleC5odG1s0gFPaHR0cHM6Ly9hbXAuY25uLmNvbS9jbm4vMjAyNC8wNi8yNS9taWRkbGVlYXN0L2dhemEtZmFtaW5lLWlwYy1yZXBvcnQtaW50bC1sYXRhbQ?oc=5",
-            "urlToImage": null,
-            "publishedAt": "20240626T00:28:00Z",
-            "content": null
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "19700101T00:00:00Z",
-            "content": "[Removed]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "San Francisco Chronicle"
-            },
-            "author": "Aidin Vaziri",
-            "title": "California's summer COVID wave arrives early. How to stay safe  San Francisco Chronicle",
-            "description": "Historically, California’s summer wave of coronavirus cases peaks around midJuly to late August. However, the virus remains unpredictable.",
-            "url": "https://www.sfchronicle.com/health/article/californiassummercovidwavearrivesearly19539429.php",
-            "urlToImage": "https://s.hdnux.com/photos/01/40/32/32/25274045/3/rawImage.jpg",
-            "publishedAt": "20240625T23:33:14Z",
-            "content": "Historically, Californias summer wave of COVID19 cases peaks from midJuly to late August. However, the virus remains unpredictable.\r\nMario Tama/Getty Images\r\nCalifornias COVID19 summer wave has st… [+6738 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": null,
-                "name": "[Removed]"
-            },
-            "author": null,
-            "title": "[Removed]",
-            "description": "[Removed]",
-            "url": "https://removed.com",
-            "urlToImage": null,
-            "publishedAt": "19700101T00:00:00Z",
-            "content": "[Removed]"
-        }
-    ]
-
-}
-
-If you want headlines just from a specific source, for example BBC News, we can do that too.
-
-The identifier for BBC News is bbcnews, which we can get by querying the sources endpoint.
-Definition
-
-GET https://newsapi.org/v2/topheadlines?sources=bbcnews&apiKey=API_KEY
-
-Example request
-
-curl https://newsapi.org/v2/topheadlines G \
-    d sources=bbcnews \
-    d apiKey=API_KEY
-
-Example response
-{
-
-    "status": "ok",
-    "totalResults": 10,
-    
-    "articles": [
-        
-        {
-            
-            "source": {
-                "id": "bbcnews",
-                "name": "BBC News"
-            },
-            "author": "BBC News",
-            "title": "Julian Assange heads to freedom. This is how the deal was done",
-            "description": "Australian pressure, British legal process and a US realisation it needed a deal led to Wikileaks founder's release.",
-            "url": "https://www.bbc.co.uk/news/articles/c511y42z1p7o",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/7bca/live/2063d4f0339211efa0449d4367d5b599.jpg",
-            "publishedAt": "20240626T09:07:14.6019877Z",
-            "content": "Then came the law. On May 20, the High Court in the UK gave Julian Assange a legal lifeline. \r\nIt ruled that he could bring a new appeal against attempts to have him extradited to stand trial in the … [+1716 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "bbcnews",
-                "name": "BBC News"
-            },
-            "author": "BBC News",
-            "title": "Why Northern Mariana Islands hosted Julian Assange hearing",
-            "description": "The remote ocean archipelago was until now known for its secluded beaches and wartime shipwrecks.",
-            "url": "https://www.bbc.co.uk/news/articles/cn00720gx5jo",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/6185/live/4d5b37d0336211efa0449d4367d5b599.jpg",
-            "publishedAt": "20240626T08:52:15.0865919Z",
-            "content": "When Julian Assange published a huge cache of leaked files in 2010 that provoked global uproar over US tactics in foreign conflicts, he could hardly have foreseen the long legal battle ahead would cu… [+3052 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "bbcnews",
-                "name": "BBC News"
-            },
-            "author": "BBC News",
-            "title": "Gifts and displays as Japan's emperor visits Buckingham Palace",
-            "description": "Emperor Naruhito and Empress Masako of Japan taking part in a threeday state visit to the UK.",
-            "url": "https://www.bbc.co.uk/news/articles/c2vvv2n00g8o",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/5b92/live/64d39030333311efbdc541d7421c2adf.jpg",
-            "publishedAt": "20240626T08:22:21.2578111Z",
-            "content": "The state banquet, in the capacious ballroom of the palace, with its elaborate table settings, chandeliers and flower displays, is a centrepiece of a state visit. Its soft power with sorbet.\r\nWith th… [+763 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "bbcnews",
-                "name": "BBC News"
-            },
-            "author": "BBC News",
-            "title": "Macron's election gamble puts French democracy on the table",
-            "description": "Some fear the snap elections could lead to violence on the streets, and endanger French democracy.",
-            "url": "https://www.bbc.co.uk/news/articles/cekk9n1je9yo",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/563c/live/fb8aed9032ff11efa32dc55e0faa7482.jpg",
-            "publishedAt": "20240626T07:52:14.6336762Z",
-            "content": "When Macron called the election on the evening of the European elections, I called my children and said you do realise we are living a historic moment, says Juliette Vilgrain, a candidate for Horizon… [+1261 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "bbcnews",
-                "name": "BBC News"
-            },
-            "author": "BBC News",
-            "title": "When your uni neighbour turns out to be a prince",
-            "description": "A former student remembers what it was like living next door to the future Emperor of Japan.",
-            "url": "https://www.bbc.co.uk/news/articles/cxwwzw08zxxo",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/57aa/live/5b25e4f02fde11ef8e1541b05d9d84b4.jpg",
-            "publishedAt": "20240626T03:52:14.2264949Z",
-            "content": "More than 40 years later, Emperor Naruhito is going back to his old student haunts while on a state visit to the UK.\r\nKeith, from the Appalachian mountains and who liked to play bluegrass music, gave… [+722 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "bbcnews",
-                "name": "BBC News"
-            },
-            "author": "BBC News",
-            "title": "Jamaal Bowman loses New York primary to proIsrael George Latimer",
-            "description": "The war in Gaza loomed large over the hotly anticipated election in New York's 16th district.",
-            "url": "https://www.bbc.co.uk/news/articles/cz99x0w65dyo",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2cd2/live/aa76c620334711efa8d00397e0dc51ba.jpg",
-            "publishedAt": "20240626T03:37:14.9774788Z",
-            "content": "New York congressman Jamaal Bowman has lost a primary challenge, according to projections, in a closely watched race that exposed a bitter rift within the Democratic party over the IsraelGaza war. \r… [+2702 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "bbcnews",
-                "name": "BBC News"
-            },
-            "author": "BBC News",
-            "title": "Boeing Starliner: Why are the astronauts still in space?",
-            "description": "What has delayed their return and what does it mean for the mission?",
-            "url": "https://www.bbc.co.uk/news/articles/c6pp29gdwe6o",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/325e/live/13ab7590330d11efbdc541d7421c2adf.jpg",
-            "publishedAt": "20240626T01:07:21.8209044Z",
-            "content": "The sequence of events raises questions about whether the launch should have gone ahead in spite of the leak. \r\nDr Adam Baker, who is head of Rocket Engineering, a UK company specialising in rocket p… [+1311 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "bbcnews",
-                "name": "BBC News"
-            },
-            "author": "BBC News",
-            "title": "German car maker VW to invest up to $5bn in Tesla rival Rivian",
-            "description": "Shares in the USbased electric truck and SUV maker jumped by around 50% after the announcement.",
-            "url": "https://www.bbc.co.uk/news/articles/c1ddmxmz1lpo",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/489d/live/675eb070334a11efa338cff579e52648.jpg",
-            "publishedAt": "20240626T00:52:16.9762925Z",
-            "content": "Volkswagen (VW) says it will invest up to $5bn (£3.94bn) in US electric vehicle (EV) maker Rivian.\r\nThe deal creates a joint venture that will allow the German car making giant and the Tesla rival to… [+610 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "bbcnews",
-                "name": "BBC News"
-            },
-            "author": "BBC News",
-            "title": "Sir David Attenborough: New portrait by Jonathan Yeo unveiled",
-            "description": "The painting marks the veteran natural history broadcaster's 40 years of fellowship to the Royal Society.",
-            "url": "https://www.bbc.co.uk/news/articles/c6pp2774qq7o",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/a8c8/live/63c6f870330211ef90beb75b34b0bbb2.jpg",
-            "publishedAt": "20240626T00:52:15.6016342Z",
-            "content": "He added that his work has only been possible thanks to the natural history film makers and scientists who have shared their skills.\r\nYeo, who has also painted Sir Tony Blair and Malala Yousafzai, sa… [+1525 chars]"
-        },
-        
-        {
-            
-            "source": {
-                "id": "bbcnews",
-                "name": "BBC News"
-            },
-            "author": "BBC News",
-            "title": "Conservatives put pressure on Trudeau with Toronto StPaul's byelection win",
-            "description": "The Canadian PM's rivals have snatched a Toronto seat that had been Liberalheld for decades.",
-            "url": "https://www.bbc.co.uk/news/articles/c3gg0d122qvo",
-            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/f699/live/fcf0ab0032f211ef90beb75b34b0bbb2.jpg",
-            "publishedAt": "20240625T13:37:15.9553653Z",
-            "content": "The Conservatives have narrowly snatched the TorontoSt Paul's seat from the Liberals, in a huge political upset that is expected to intensify political pressure on Prime Minister Justin Trudeau.\r\nCa… [+1242 chars]"
-        }
-    ]
-
-}
-
+	
+status	"ok"
+totalResults	32
+articles	
+0	
+source	
+id	null
+name	"Rolling Stone"
+author	"Brittany Spanos"
+title	"'I Am: Celine Dion': 5 Things We Learned From Harrowing Documentary - Rolling Stone"
+description	"A new Amazon Prime documentary follows the renowned singer as she navigates stiff-person syndrome."
+url	"http://www.rollingstone.com/music/music-news/i-am-celine-dion-documentary-stiff-person-syndrome-summary-1235046253/"
+urlToImage	"https://www.rollingstone.com/wp-content/uploads/2024/06/i-am-celine-dion-doc.jpg?w=1600&h=900&crop=1"
+publishedAt	"2024-06-25T16:41:53Z"
+content	"The new Amazon Prime documentary I Am: Celine Dion offers a gripping and heartbreaking portrait of one of history’s greatest voices struggling to sing again. Directed by Irene Taylor and streaming no… [+3079 chars]"
+1	
+source	
+id	"the-washington-post"
+name	"The Washington Post"
+author	"Sabrina Malhi, Lizette Ortega"
+title	"U.S. surgeon general declares firearm violence a public health crisis - The Washington Post"
+description	"Vivek H. Murthy called on the nation to address gun violence with the vigor used to reduce deaths and injuries from tobacco and motor vehicle crashes."
+url	"https://www.washingtonpost.com/health/2024/06/26/surgeon-general-firearm-deaths/"
+urlToImage	"https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/R6BP5QBA7FC4OONYR5UG6BV5KM.jpg&w=1440"
+publishedAt	"2024-06-25T16:38:22Z"
+content	"U.S. Surgeon General Vivek H. Murthy declared gun violence a public health crisis Tuesday and called on the nation to address it with the same vigor used to reduce deaths and injuries fromtobacco and… [+7979 chars]"
+2	
+source	
+id	"the-washington-post"
+name	"The Washington Post"
+author	"Shira Rubin, Claire Parker, Lior Soroka"
+title	"Supreme Court Rules Israel’s Haredi must do compulsory military service - The Washington Post"
+description	"The decision could result in ultra-Orthodox lawmakers pulling out of Prime Minister Benjamin Netanyahu’s coalition and collapsing it."
+url	"https://www.washingtonpost.com/world/2024/06/25/israel-haredi-ultra-orthodox/"
+urlToImage	"https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VNCG5NWOHWFPTD5URWNL27GA7I.jpg&w=1440"
+publishedAt	"2024-06-25T16:08:39Z"
+content	"TEL AVIV Israels Supreme Court ruled unanimously Tuesday that ultra-Orthodox yeshiva students must be conscripted into the Israeli military and are no longer eligible for substantial government benef… [+6823 chars]"
+3	
+source	
+id	null
+name	"Yahoo Entertainment"
+author	"Natalie Rahhal"
+title	"COVID summer guide: How to navigate symptoms, variants and vaccines this season amid rising cases - Yahoo Life"
+description	"Cases have begun to tick up, a sign that the usual summer surge is on its way, experts say."
+url	"https://www.yahoo.com/lifestyle/covid-summer-guide-how-to-navigate-symptoms-variants-and-vaccines-this-season-amid-rising-cases-200451656.html"
+urlToImage	"https://s.yimg.com/ny/api/res/1.2/tr_CdhgTvju7ZvQN.2H9KQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-06/59ffbd50-29b0-11ef-a3fd-c1911fe470ad"
+publishedAt	"2024-06-25T16:07:17Z"
+content	"Its summer 2024, but the COVID-19 pandemic is still hanging around. And while the virus continues to evolve, its doing so in more predictable ways. Specifically, the expected summer uptick in infecti… [+7752 chars]"
+4	
+source	
+id	"the-verge"
+name	"The Verge"
+author	"Allison Johnson"
+title	"Motorola's 2024 Razr phones are ready to make a splash - The Verge"
+description	"The Motorola Razr and Razr Plus come with some meaningful upgrades this year, including bigger screens, better water resistance, and an updated hinge."
+url	"https://www.theverge.com/2024/6/25/24185177/motorola-razr-plus-2024-flip-phone-screen-battery-price"
+urlToImage	"https://cdn.vox-cdn.com/thumbor/BZ2f04HdUt7P45mX2XsKFCTi6iI=/0x0:2040x1360/1200x628/filters:focal(1020x680:1021x681)/cdn.vox-cdn.com/uploads/chorus_asset/file/25504358/DSCF7856.jpg"
+publishedAt	"2024-06-25T16:00:00Z"
+content	"Motorolas 2024 Razr phones are ready to make a splash\r\nMotorolas 2024 Razr phones are ready to make a splash\r\n / Both phones get upgraded water resistance and bigger cover screens.\r\nByAllison Johnson… [+3686 chars]"
+5	
+source	
+id	"reuters"
+name	"Reuters"
+author	"Reuters"
+title	"Police fire on demonstrators trying to storm Kenya parliament, several dead - Reuters"
+description	null
+url	"https://www.reuters.com/world/africa/young-kenyan-tax-protesters-plan-nationwide-demonstrations-2024-06-25/"
+urlToImage	null
+publishedAt	"2024-06-25T15:10:00Z"
+content	null
+6	
+source	
+id	"associated-press"
+name	"Associated Press"
+author	"JINTAMAS SAKSORNCHAI, ALANNA DURKIN RICHER, ERIC TUCKER"
+title	"WikiLeaks founder Julian Assange's plane leaves Bangkok on his way to a US court and later freedom - The Associated Press"
+description	"A plane with WikiLeaks founder Julian Assange has departed Bangkok after refueling and he is on the way to Saipan to enter a plea deal with the U.S. government in Saipan. The agreement will free him and resolve the legal case over the publication of a trove o…"
+url	"https://apnews.com/article/assange-justice-department-plea-wikileaks-saipan-australia-00eb380879ff636cc9b916f82f82ed40"
+urlToImage	"https://dims.apnews.com/dims4/default/3d9bd17/2147483647/strip/true/crop/4946x2782+0+256/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fbb%2Fe0%2F6524d6b247ee0f2e1345001246e8%2F089298d4fb854ec387d25e79f1f2a3df"
+publishedAt	"2024-06-25T15:02:00Z"
+content	"BANGKOK (AP) A plane carrying WikiLeaks founder Julian Assange departed Bangkok after refueling Tuesday, taking him to Saipan to enter a plea deal with the U.S. government that will free him and reso… [+7876 chars]"
+7	
+source	
+id	null
+name	"Barron's"
+author	"Barron's"
+title	"SolarEdge Stock Tumbles After Customer Bankruptcy. There’s More Bad News. - Barron's"
+description	null
+url	"https://www.barrons.com/articles/solaredge-stock-price-bankruptcy-d55a6924"
+urlToImage	null
+publishedAt	"2024-06-25T14:52:00Z"
+content	null
+8	
+source	
+id	null
+name	"Fox Business"
+author	"Megan Henney"
+title	"US home prices smashed another record high in April - Fox Business"
+description	"U.S. home prices continued to soar higher April, according to data published Tuesday, as would-be homebuyers compete for a scarce number of homes for sale."
+url	"https://www.foxbusiness.com/economy/us-home-prices-smashed-another-record-high-april"
+urlToImage	"https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/04/0/0/housing-31.jpg?ve=1&tl=1"
+publishedAt	"2024-06-25T14:51:00Z"
+content	"Home prices reached a new record in April amid an ongoing housing shortage\r\n, even as high mortgage rates pushed affordability out of reach for more Americans.\r\nPrices increased 6.3% nationally in Ap… [+2819 chars]"
+9	
+source	
+id	null
+name	"BBC News"
+author	null
+title	"Tories pull support for candidates over bet scandal - BBC.com"
+description	"Both Craig Williams and Laura Saunders are being looked into by the Gambling Commission."
+url	"https://www.bbc.com/news/articles/cg33mvm8mvro"
+urlToImage	"https://ichef.bbci.co.uk/news/1024/branded_news/883b/live/95b06ea0-32d7-11ef-bdc5-41d7421c2adf.png"
+publishedAt	"2024-06-25T14:28:47Z"
+content	"By Henry Zeffman, Chief Political Correspondent, BBC News, @hzeffman  Jennifer McKiernan, Political reporter, BBC News, @_JennyMcKiernan\r\nThe Conservative party have withdrawn support from two candid… [+4009 chars]"
+10	
+source	
+id	null
+name	"[Removed]"
+author	null
+title	"[Removed]"
+description	"[Removed]"
+url	"https://removed.com"
+urlToImage	null
+publishedAt	"1970-01-01T00:00:00Z"
+content	"[Removed]"
+11	
+source	
+id	"google-news"
+name	"Google News"
+author	"The Associated Press"
+title	"International court seeks arrest of Russian officials over attacks on Ukrainian power plants - The Associated Press"
+description	null
+url	"https://news.google.com/rss/articles/CBMiX2h0dHBzOi8vYXBuZXdzLmNvbS9hcnRpY2xlL2ljYy1ydXNzaWEtdWtyYWluZS1zaG9pZ3UtZ2VyYXNpbW92LWViNDhjYTA5MTUwMDgyZDk4OGJjNzVkZjU5ZmU5MzU00gEA?oc=5"
+urlToImage	null
+publishedAt	"2024-06-25T14:16:00Z"
+content	null
+12	
+source	
+id	null
+name	"New York Post"
+author	"Nika Shakhnazarova"
+title	"Princess Anne suffering memory loss after sustaining horse-related head injury: report - New York Post "
+description	"The Princess Royal, 73, spent a second night in the hospital on Monday after sustaining head injuries and a concussion."
+url	"https://nypost.com/2024/06/25/entertainment/princess-anne-suffering-memory-loss-after-sustaining-horse-related-head-injury-report/"
+urlToImage	"https://nypost.com/wp-content/uploads/sites/2/2024/06/84425590.jpg?quality=75&strip=all&w=1024"
+publishedAt	"2024-06-25T13:46:00Z"
+content	"Princess Anne has reportedly suffered memory loss after sustaining head injuries following a horse-related incident over the weekend.\r\nThe Princess Royal, 73, spent a second night in the hospital on … [+2869 chars]"
+13	
+source	
+id	null
+name	"CNBC"
+author	"Hakyung Kim, Samantha Subin"
+title	"S&P 500, Nasdaq rise as Nvidia rebounds: Live updates - CNBC"
+description	"The S&P 500 and Nasdaq Composite rose Tuesday, led by a rebound in Nvidia shares after a sharp downturn in the stock a day prior."
+url	"https://www.cnbc.com/2024/06/24/stock-market-today-live-updates.html"
+urlToImage	"https://image.cnbcfm.com/api/v1/image/107423346-1717427673949-gettyimages-2155429330-ms1_7284_dmaqgrsz.jpeg?v=1717427754&w=1920&h=1080"
+publishedAt	"2024-06-25T13:40:00Z"
+content	"A rebound in Nvidia shares led the S&amp;P 500 and Nasdaq Composite higher on Tuesday, a day after a sell-off in the chipmaking giant.\r\nThe broad market S&amp;P 500 added 0.2%, while the Nasdaq advan… [+1768 chars]"
+14	
+source	
+id	null
+name	"BBC News"
+author	null
+title	"Hunter Biden files for new gun trial on a technicality - BBC.com"
+description	"His legal team's longshot motion cites a procedural matter to challenge the basis for proceedings."
+url	"https://www.bbc.com/news/articles/cd117zq5rdyo"
+urlToImage	"https://ichef.bbci.co.uk/news/1024/branded_news/8b1a/live/206519c0-2cc9-11ef-9ac3-fdf17bd11a0d.jpg"
+publishedAt	"2024-06-25T12:48:20Z"
+content	"By Bernd Debusmann Jr, BBC News, Washington \r\nLawyers for Hunter Biden are seeking a new trial in his federal gun case, after a jury found him guilty two weeks ago of lying about his drug use when he… [+1892 chars]"
+15	
+source	
+id	"google-news"
+name	"Google News"
+author	"BBC.com"
+title	"Specially trained dogs arrive to help Jay Slater search - police - BBC.com"
+description	null
+url	"https://news.google.com/rss/articles/CBMiLmh0dHBzOi8vd3d3LmJiYy5jb20vbmV3cy9hcnRpY2xlcy9jZDExOW5uNzgyam_SATJodHRwczovL3d3dy5iYmMuY29tL25ld3MvYXJ0aWNsZXMvY2QxMTlubjc4MmpvLmFtcA?oc=5"
+urlToImage	null
+publishedAt	"2024-06-25T12:37:32Z"
+content	null
+16	
+source	
+id	null
+name	"[Removed]"
+author	null
+title	"[Removed]"
+description	"[Removed]"
+url	"https://removed.com"
+urlToImage	null
+publishedAt	"1970-01-01T00:00:00Z"
+content	"[Removed]"
+17	
+source	
+id	null
+name	"NASASpaceflight.com"
+author	"Sawyer Rosenstein"
+title	"NASA, NOAA ready for launch of GOES-U aboard SpaceX Falcon Heavy - NASASpaceFlight.com - NASASpaceflight.com"
+description	"The final satellite of the GOES-R series of satellites, GOES-U, is set to launch on…"
+url	"https://www.nasaspaceflight.com/2024/06/goes-u-falcon-heavy/"
+urlToImage	"https://www.nasaspaceflight.com/wp-content/uploads/2024/06/GQ6aNo5X0AAY1f_-525x350.jpeg"
+publishedAt	"2024-06-25T12:20:02Z"
+content	"8The final satellite of the GOES-R series of satellites, GOES-U, is set to launch on June 25 aboard a SpaceX Falcon Heavy. The two-hour window opens at 5:16 PM EDT (21:16 UTC), with the vehicle set t… [+11243 chars]"
+18	
+source	
+id	null
+name	"The Points Guy"
+author	"Zach Griff"
+title	"The biggest news about the new Delta One Lounge may surprise you and more tidbits - The Points Guy"
+description	"Delta Air Lines is ushering in a new era with the opening of its first Delta One Lounge."
+url	"https://thepointsguy.com/news/delta-one-lounge-new-york-interview/"
+urlToImage	"https://thepointsguy.global.ssl.fastly.net/us/originals/2024/06/Delta-One-Lounge-JFK-Zach-Griff-37.jpg"
+publishedAt	"2024-06-25T12:14:24Z"
+content	"Delta Air Lines is ushering in a new era with the opening of its first Delta One Lounge.\r\nThis business-class-only lounge network has been years in the making, and it's a major move for Delta, an air… [+6260 chars]"
+19	
+source	
+id	null
+name	"Variety"
+author	"Ellise Shafer"
+title	"Shifty Shellshock, Crazy Town Frontman and ‘Butterfly’ Singer, Dies at 49 - Variety"
+description	'Shifty Shellshock, the frontman of rap rock band Crazy Town who sang the hit song "Butterfly," has died. He was 49.'
+url	"https://variety.com/2024/music/global/shifty-shellshock-dead-crazy-town-frontman-butterfly-singer-1236047633/"
+urlToImage	"https://variety.com/wp-content/uploads/2024/06/shfty.jpg?w=1000&h=563&crop=1"
+publishedAt	"2024-06-25T11:09:00Z"
+content	"Shifty Shellshock, the frontman of rap rock band Crazy Town who sang the hit song “Butterfly,” has died. He was 49.\r\nAccording to the Los Angeles County Medical Examiner’s website, Shellshock — whose… [+1829 chars]"
